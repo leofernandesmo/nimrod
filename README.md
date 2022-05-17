@@ -20,7 +20,8 @@
 This is a step-by-step to replicate this study (in a Linux/Ubuntu environment).
   1. Clone the Nimrod project
 ```
-$ git clone ...
+$ git clone https://github.com/leofernandesmo/nimrod.git
+$ cd nimrod
 ```
   2. Build the Docker image and run the container
 ```
