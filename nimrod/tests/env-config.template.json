@@ -1,0 +1,4 @@
+{
+  "java_home": "../jdk",
+  "maven_home": "../apache-maven"
+}
