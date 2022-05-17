@@ -1,0 +1,1145 @@
+AORB_1:56:long_add(long,int):thisMonth - 1 => thisMonth * 1
+AORB_2:56:long_add(long,int):thisMonth - 1 => thisMonth / 1
+AORB_3:56:long_add(long,int):thisMonth - 1 => thisMonth % 1
+AORB_4:56:long_add(long,int):thisMonth - 1 => thisMonth + 1
+AORB_5:56:long_add(long,int):thisMonth - 1 + months => (thisMonth - 1) * months
+AORB_6:56:long_add(long,int):thisMonth - 1 + months => (thisMonth - 1) / months
+AORB_7:56:long_add(long,int):thisMonth - 1 + months => (thisMonth - 1) % months
+AORB_8:56:long_add(long,int):thisMonth - 1 + months => thisMonth - 1 - months
+AORB_9:58:long_add(long,int):monthToUse / iMax => monthToUse * iMax
+AORB_10:58:long_add(long,int):monthToUse / iMax => monthToUse % iMax
+AORB_11:58:long_add(long,int):monthToUse / iMax => monthToUse + iMax
+AORB_12:58:long_add(long,int):monthToUse / iMax => monthToUse - iMax
+AORB_13:58:long_add(long,int):thisYear + monthToUse / iMax => thisYear * (monthToUse / iMax)
+AORB_14:58:long_add(long,int):thisYear + monthToUse / iMax => thisYear / (monthToUse / iMax)
+AORB_15:58:long_add(long,int):thisYear + monthToUse / iMax => thisYear % (monthToUse / iMax)
+AORB_16:58:long_add(long,int):thisYear + monthToUse / iMax => thisYear - monthToUse / iMax
+AORB_17:59:long_add(long,int):monthToUse % iMax => monthToUse * iMax
+AORB_18:59:long_add(long,int):monthToUse % iMax => monthToUse / iMax
+AORB_19:59:long_add(long,int):monthToUse % iMax => monthToUse + iMax
+AORB_20:59:long_add(long,int):monthToUse % iMax => monthToUse - iMax
+AORB_21:59:long_add(long,int):monthToUse % iMax + 1 => monthToUse % iMax * 1
+AORB_22:59:long_add(long,int):monthToUse % iMax + 1 => monthToUse % iMax / 1
+AORB_23:59:long_add(long,int):monthToUse % iMax + 1 => monthToUse % iMax % 1
+AORB_24:59:long_add(long,int):monthToUse % iMax + 1 => monthToUse % iMax - 1
+AORB_25:61:long_add(long,int):monthToUse / iMax => monthToUse * iMax
+AORB_26:61:long_add(long,int):monthToUse / iMax => monthToUse % iMax
+AORB_27:61:long_add(long,int):monthToUse / iMax => monthToUse + iMax
+AORB_28:61:long_add(long,int):monthToUse / iMax => monthToUse - iMax
+AORB_29:61:long_add(long,int):thisYear + monthToUse / iMax => thisYear * (monthToUse / iMax)
+AORB_30:61:long_add(long,int):thisYear + monthToUse / iMax => thisYear / (monthToUse / iMax)
+AORB_31:61:long_add(long,int):thisYear + monthToUse / iMax => thisYear % (monthToUse / iMax)
+AORB_32:61:long_add(long,int):thisYear + monthToUse / iMax => thisYear - monthToUse / iMax
+AORB_33:61:long_add(long,int):thisYear + monthToUse / iMax - 1 => (thisYear + monthToUse / iMax) * 1
+AORB_34:61:long_add(long,int):thisYear + monthToUse / iMax - 1 => (thisYear + monthToUse / iMax) / 1
+AORB_35:61:long_add(long,int):thisYear + monthToUse / iMax - 1 => (thisYear + monthToUse / iMax) % 1
+AORB_36:61:long_add(long,int):thisYear + monthToUse / iMax - 1 => thisYear + monthToUse / iMax + 1
+AORB_37:63:long_add(long,int):monthToUse % iMax => monthToUse * iMax
+AORB_38:63:long_add(long,int):monthToUse % iMax => monthToUse / iMax
+AORB_39:63:long_add(long,int):monthToUse % iMax => monthToUse + iMax
+AORB_40:63:long_add(long,int):monthToUse % iMax => monthToUse - iMax
+AORB_41:67:long_add(long,int):iMax - remMonthToUse => iMax * remMonthToUse
+AORB_42:67:long_add(long,int):iMax - remMonthToUse => iMax / remMonthToUse
+AORB_43:67:long_add(long,int):iMax - remMonthToUse => iMax % remMonthToUse
+AORB_44:67:long_add(long,int):iMax - remMonthToUse => iMax + remMonthToUse
+AORB_45:67:long_add(long,int):iMax - remMonthToUse + 1 => (iMax - remMonthToUse) * 1
+AORB_46:67:long_add(long,int):iMax - remMonthToUse + 1 => (iMax - remMonthToUse) / 1
+AORB_47:67:long_add(long,int):iMax - remMonthToUse + 1 => (iMax - remMonthToUse) % 1
+AORB_48:67:long_add(long,int):iMax - remMonthToUse + 1 => iMax - remMonthToUse - 1
+AORB_49:78:long_add(long,int):datePart + timePart => datePart * timePart
+AORB_50:78:long_add(long,int):datePart + timePart => datePart / timePart
+AORB_51:78:long_add(long,int):datePart + timePart => datePart % timePart
+AORB_52:78:long_add(long,int):datePart + timePart => datePart - timePart
+AORB_53:91:long_add(long,long):thisMonth - 1 => thisMonth * 1
+AORB_54:91:long_add(long,long):thisMonth - 1 => thisMonth / 1
+AORB_55:91:long_add(long,long):thisMonth - 1 => thisMonth % 1
+AORB_56:91:long_add(long,long):thisMonth - 1 => thisMonth + 1
+AORB_57:91:long_add(long,long):thisMonth - 1 + months => (thisMonth - 1) * months
+AORB_58:91:long_add(long,long):thisMonth - 1 + months => (thisMonth - 1) / months
+AORB_59:91:long_add(long,long):thisMonth - 1 + months => (thisMonth - 1) % months
+AORB_60:91:long_add(long,long):thisMonth - 1 + months => thisMonth - 1 - months
+AORB_61:93:long_add(long,long):monthToUse / iMax => monthToUse * iMax
+AORB_62:93:long_add(long,long):monthToUse / iMax => monthToUse % iMax
+AORB_63:93:long_add(long,long):monthToUse / iMax => monthToUse + iMax
+AORB_64:93:long_add(long,long):monthToUse / iMax => monthToUse - iMax
+AORB_65:93:long_add(long,long):thisYear + monthToUse / iMax => thisYear * (monthToUse / iMax)
+AORB_66:93:long_add(long,long):thisYear + monthToUse / iMax => thisYear / (monthToUse / iMax)
+AORB_67:93:long_add(long,long):thisYear + monthToUse / iMax => thisYear % (monthToUse / iMax)
+AORB_68:93:long_add(long,long):thisYear + monthToUse / iMax => thisYear - monthToUse / iMax
+AORB_69:94:long_add(long,long):monthToUse % iMax => monthToUse * iMax
+AORB_70:94:long_add(long,long):monthToUse % iMax => monthToUse / iMax
+AORB_71:94:long_add(long,long):monthToUse % iMax => monthToUse + iMax
+AORB_72:94:long_add(long,long):monthToUse % iMax => monthToUse - iMax
+AORB_73:94:long_add(long,long):monthToUse % iMax + 1 => monthToUse % iMax * 1
+AORB_74:94:long_add(long,long):monthToUse % iMax + 1 => monthToUse % iMax / 1
+AORB_75:94:long_add(long,long):monthToUse % iMax + 1 => monthToUse % iMax % 1
+AORB_76:94:long_add(long,long):monthToUse % iMax + 1 => monthToUse % iMax - 1
+AORB_77:96:long_add(long,long):monthToUse / iMax => monthToUse * iMax
+AORB_78:96:long_add(long,long):monthToUse / iMax => monthToUse % iMax
+AORB_79:96:long_add(long,long):monthToUse / iMax => monthToUse + iMax
+AORB_80:96:long_add(long,long):monthToUse / iMax => monthToUse - iMax
+AORB_81:96:long_add(long,long):thisYear + monthToUse / iMax => thisYear * (monthToUse / iMax)
+AORB_82:96:long_add(long,long):thisYear + monthToUse / iMax => thisYear / (monthToUse / iMax)
+AORB_83:96:long_add(long,long):thisYear + monthToUse / iMax => thisYear % (monthToUse / iMax)
+AORB_84:96:long_add(long,long):thisYear + monthToUse / iMax => thisYear - monthToUse / iMax
+AORB_85:96:long_add(long,long):thisYear + monthToUse / iMax - 1 => (thisYear + monthToUse / iMax) * 1
+AORB_86:96:long_add(long,long):thisYear + monthToUse / iMax - 1 => (thisYear + monthToUse / iMax) / 1
+AORB_87:96:long_add(long,long):thisYear + monthToUse / iMax - 1 => (thisYear + monthToUse / iMax) % 1
+AORB_88:96:long_add(long,long):thisYear + monthToUse / iMax - 1 => thisYear + monthToUse / iMax + 1
+AORB_89:98:long_add(long,long):monthToUse % iMax => monthToUse * iMax
+AORB_90:98:long_add(long,long):monthToUse % iMax => monthToUse / iMax
+AORB_91:98:long_add(long,long):monthToUse % iMax => monthToUse + iMax
+AORB_92:98:long_add(long,long):monthToUse % iMax => monthToUse - iMax
+AORB_93:102:long_add(long,long):iMax - remMonthToUse => iMax * remMonthToUse
+AORB_94:102:long_add(long,long):iMax - remMonthToUse => iMax / remMonthToUse
+AORB_95:102:long_add(long,long):iMax - remMonthToUse => iMax % remMonthToUse
+AORB_96:102:long_add(long,long):iMax - remMonthToUse => iMax + remMonthToUse
+AORB_97:102:long_add(long,long):iMax - remMonthToUse + 1 => (iMax - remMonthToUse) * 1
+AORB_98:102:long_add(long,long):iMax - remMonthToUse + 1 => (iMax - remMonthToUse) / 1
+AORB_99:102:long_add(long,long):iMax - remMonthToUse + 1 => (iMax - remMonthToUse) % 1
+AORB_100:102:long_add(long,long):iMax - remMonthToUse + 1 => iMax - remMonthToUse - 1
+AORB_101:118:long_add(long,long):datePart + timePart => datePart * timePart
+AORB_102:118:long_add(long,long):datePart + timePart => datePart / timePart
+AORB_103:118:long_add(long,long):datePart + timePart => datePart % timePart
+AORB_104:118:long_add(long,long):datePart + timePart => datePart - timePart
+AORB_105:127:int_add(org.joda.time.ReadablePartial,int,int,int):partial.getValue( 0 ) - 1 => partial.getValue( 0 ) * 1
+AORB_106:127:int_add(org.joda.time.ReadablePartial,int,int,int):partial.getValue( 0 ) - 1 => partial.getValue( 0 ) / 1
+AORB_107:127:int_add(org.joda.time.ReadablePartial,int,int,int):partial.getValue( 0 ) - 1 => partial.getValue( 0 ) % 1
+AORB_108:127:int_add(org.joda.time.ReadablePartial,int,int,int):partial.getValue( 0 ) - 1 => partial.getValue( 0 ) + 1
+AORB_109:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd % 12 => valueToAdd * 12
+AORB_110:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd % 12 => valueToAdd / 12
+AORB_111:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd % 12 => valueToAdd + 12
+AORB_112:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd % 12 => valueToAdd - 12
+AORB_113:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 => curMonth0 * (valueToAdd % 12)
+AORB_114:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 => curMonth0 / (valueToAdd % 12)
+AORB_115:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 => curMonth0 % (valueToAdd % 12)
+AORB_116:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 => curMonth0 - valueToAdd % 12
+AORB_117:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 + 12 => (curMonth0 + valueToAdd % 12) * 12
+AORB_118:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 + 12 => (curMonth0 + valueToAdd % 12) / 12
+AORB_119:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 + 12 => (curMonth0 + valueToAdd % 12) % 12
+AORB_120:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 + valueToAdd % 12 + 12 => curMonth0 + valueToAdd % 12 - 12
+AORB_121:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 => (curMonth0 + valueToAdd % 12 + 12) * 12
+AORB_122:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 => (curMonth0 + valueToAdd % 12 + 12) / 12
+AORB_123:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 => curMonth0 + valueToAdd % 12 + 12 + 12
+AORB_124:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 => curMonth0 + valueToAdd % 12 + 12 - 12
+AORB_125:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 + 1 => (curMonth0 + valueToAdd % 12 + 12) % 12 * 1
+AORB_126:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 + 1 => (curMonth0 + valueToAdd % 12 + 12) % 12 / 1
+AORB_127:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 + 1 => (curMonth0 + valueToAdd % 12 + 12) % 12 % 1
+AORB_128:128:int_add(org.joda.time.ReadablePartial,int,int,int):(curMonth0 + valueToAdd % 12 + 12) % 12 + 1 => (curMonth0 + valueToAdd % 12 + 12) % 12 - 1
+AORB_129:157:long_getDifferenceAsLong(long,long):minuendYear - subtrahendYear => minuendYear * subtrahendYear
+AORB_130:157:long_getDifferenceAsLong(long,long):minuendYear - subtrahendYear => minuendYear / subtrahendYear
+AORB_131:157:long_getDifferenceAsLong(long,long):minuendYear - subtrahendYear => minuendYear % subtrahendYear
+AORB_132:157:long_getDifferenceAsLong(long,long):minuendYear - subtrahendYear => minuendYear + subtrahendYear
+AORB_133:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax => (minuendYear - subtrahendYear) / (long) iMax
+AORB_134:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax => (minuendYear - subtrahendYear) % (long) iMax
+AORB_135:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax => minuendYear - subtrahendYear + (long) iMax
+AORB_136:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax => minuendYear - subtrahendYear - (long) iMax
+AORB_137:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth => (minuendYear - subtrahendYear) * (long) iMax * minuendMonth
+AORB_138:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth => (minuendYear - subtrahendYear) * (long) iMax / minuendMonth
+AORB_139:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth => (minuendYear - subtrahendYear) * (long) iMax % minuendMonth
+AORB_140:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth => (minuendYear - subtrahendYear) * (long) iMax - minuendMonth
+AORB_141:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth - subtrahendMonth => ((minuendYear - subtrahendYear) * (long) iMax + minuendMonth) * subtrahendMonth
+AORB_142:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth - subtrahendMonth => ((minuendYear - subtrahendYear) * (long) iMax + minuendMonth) / subtrahendMonth
+AORB_143:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth - subtrahendMonth => ((minuendYear - subtrahendYear) * (long) iMax + minuendMonth) % subtrahendMonth
+AORB_144:157:long_getDifferenceAsLong(long,long):(minuendYear - subtrahendYear) * (long) iMax + minuendMonth - subtrahendMonth => (minuendYear - subtrahendYear) * (long) iMax + minuendMonth + subtrahendMonth
+AORB_145:165:long_getDifferenceAsLong(long,long):minuendInstant - iChronology.getYearMonthMillis( minuendYear, minuendMonth ) => minuendInstant * iChronology.getYearMonthMillis( minuendYear, minuendMonth )
+AORB_146:165:long_getDifferenceAsLong(long,long):minuendInstant - iChronology.getYearMonthMillis( minuendYear, minuendMonth ) => minuendInstant / iChronology.getYearMonthMillis( minuendYear, minuendMonth )
+AORB_147:165:long_getDifferenceAsLong(long,long):minuendInstant - iChronology.getYearMonthMillis( minuendYear, minuendMonth ) => minuendInstant % iChronology.getYearMonthMillis( minuendYear, minuendMonth )
+AORB_148:165:long_getDifferenceAsLong(long,long):minuendInstant - iChronology.getYearMonthMillis( minuendYear, minuendMonth ) => minuendInstant + iChronology.getYearMonthMillis( minuendYear, minuendMonth )
+AORB_149:166:long_getDifferenceAsLong(long,long):subtrahendInstant - iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth ) => subtrahendInstant * iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth )
+AORB_150:166:long_getDifferenceAsLong(long,long):subtrahendInstant - iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth ) => subtrahendInstant / iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth )
+AORB_151:166:long_getDifferenceAsLong(long,long):subtrahendInstant - iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth ) => subtrahendInstant % iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth )
+AORB_152:166:long_getDifferenceAsLong(long,long):subtrahendInstant - iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth ) => subtrahendInstant + iChronology.getYearMonthMillis( subtrahendYear, subtrahendMonth )
+AORB_153:182:long_set(long,int):iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) + iChronology.getMillisOfDay( instant ) => iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) * iChronology.getMillisOfDay( instant )
+AORB_154:182:long_set(long,int):iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) + iChronology.getMillisOfDay( instant ) => iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) / iChronology.getMillisOfDay( instant )
+AORB_155:182:long_set(long,int):iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) + iChronology.getMillisOfDay( instant ) => iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) % iChronology.getMillisOfDay( instant )
+AORB_156:182:long_set(long,int):iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) + iChronology.getMillisOfDay( instant ) => iChronology.getYearMonthDayMillis( thisYear, month, thisDom ) - iChronology.getMillisOfDay( instant )
+AORB_157:228:long_remainder(long):instant - roundFloor( instant ) => instant * roundFloor( instant )
+AORB_158:228:long_remainder(long):instant - roundFloor( instant ) => instant / roundFloor( instant )
+AORB_159:228:long_remainder(long):instant - roundFloor( instant ) => instant % roundFloor( instant )
+AORB_160:228:long_remainder(long):instant - roundFloor( instant ) => instant + roundFloor( instant )
+AORS_1:133:int_add(org.joda.time.ReadablePartial,int,int,int):i++ => i--
+AORS_2:168:long_getDifferenceAsLong(long,long):difference-- => difference++
+AODU_2:151:long_getDifferenceAsLong(long,long):-getDifference( subtrahendInstant, minuendInstant ) => getDifference( subtrahendInstant, minuendInstant )
+AODS_1:168:long_getDifferenceAsLong(long,long):difference-- => difference
+AOIU_2:34:BasicMonthOfYearDateTimeField(org.joda.time.chrono.BasicChronology,int):leapMonth => -leapMonth
+AOIU_3:44:int_get(long):instant => -instant
+AOIU_4:50:long_add(long,int):instant => -instant
+AOIU_5:52:long_add(long,int):instant => -instant
+AOIU_6:53:long_add(long,int):instant => -instant
+AOIU_7:54:long_add(long,int):instant => -instant
+AOIU_8:54:long_add(long,int):thisYear => -thisYear
+AOIU_9:56:long_add(long,int):thisMonth => -thisMonth
+AOIU_10:58:long_add(long,int):thisYear => -thisYear
+AOIU_11:59:long_add(long,int):monthToUse => -monthToUse
+AOIU_12:61:long_add(long,int):thisYear => -thisYear
+AOIU_13:62:long_add(long,int):monthToUse => -monthToUse
+AOIU_14:63:long_add(long,int):monthToUse => -monthToUse
+AOIU_15:65:long_add(long,int):iMax => -iMax
+AOIU_16:67:long_add(long,int):iMax => -iMax
+AOIU_17:72:long_add(long,int):instant => -instant
+AOIU_18:72:long_add(long,int):thisYear => -thisYear
+AOIU_19:72:long_add(long,int):thisMonth => -thisMonth
+AOIU_20:73:long_add(long,int):yearToUse => -yearToUse
+AOIU_21:73:long_add(long,int):monthToUse => -monthToUse
+AOIU_22:75:long_add(long,int):maxDay => -maxDay
+AOIU_23:77:long_add(long,int):yearToUse => -yearToUse
+AOIU_24:77:long_add(long,int):monthToUse => -monthToUse
+AOIU_25:77:long_add(long,int):dayToUse => -dayToUse
+AOIU_26:78:long_add(long,int):datePart => -datePart
+AOIU_27:83:long_add(long,long):months => -months
+AOIU_28:85:long_add(long,long):instant => -instant
+AOIU_29:85:long_add(long,long):i_months => -i_months
+AOIU_30:87:long_add(long,long):instant => -instant
+AOIU_31:88:long_add(long,long):instant => -instant
+AOIU_32:89:long_add(long,long):instant => -instant
+AOIU_33:89:long_add(long,long):thisYear => -thisYear
+AOIU_34:91:long_add(long,long):thisMonth => -thisMonth
+AOIU_35:93:long_add(long,long):thisYear => -thisYear
+AOIU_36:94:long_add(long,long):monthToUse => -monthToUse
+AOIU_37:96:long_add(long,long):thisYear => -thisYear
+AOIU_38:97:long_add(long,long):monthToUse => -monthToUse
+AOIU_39:98:long_add(long,long):monthToUse => -monthToUse
+AOIU_40:100:long_add(long,long):iMax => -iMax
+AOIU_41:102:long_add(long,long):iMax => -iMax
+AOIU_42:110:long_add(long,long):yearToUse => -yearToUse
+AOIU_43:111:long_add(long,long):monthToUse => -monthToUse
+AOIU_44:112:long_add(long,long):instant => -instant
+AOIU_45:112:long_add(long,long):thisYear => -thisYear
+AOIU_46:112:long_add(long,long):thisMonth => -thisMonth
+AOIU_47:113:long_add(long,long):i_yearToUse => -i_yearToUse
+AOIU_48:113:long_add(long,long):i_monthToUse => -i_monthToUse
+AOIU_49:115:long_add(long,long):maxDay => -maxDay
+AOIU_50:117:long_add(long,long):i_yearToUse => -i_yearToUse
+AOIU_51:117:long_add(long,long):i_monthToUse => -i_monthToUse
+AOIU_52:117:long_add(long,long):dayToUse => -dayToUse
+AOIU_53:118:long_add(long,long):datePart => -datePart
+AOIU_54:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 => -curMonth0
+AOIU_55:129:int_add(org.joda.time.ReadablePartial,int,int,int):newMonth => -newMonth
+AOIU_56:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => -i
+AOIU_57:134:int_add(org.joda.time.ReadablePartial,int,int,int):instant => -instant
+AOIU_58:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => -i
+AOIU_59:136:int_add(org.joda.time.ReadablePartial,int,int,int):instant => -instant
+AOIU_60:136:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => -valueToAdd
+AOIU_61:137:int_add(org.joda.time.ReadablePartial,int,int,int):instant => -instant
+AOIU_62:139:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => -fieldIndex
+AOIU_63:139:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => -valueToAdd
+AOIU_64:145:long_addWrapField(long,int):instant => -instant
+AOIU_65:145:long_addWrapField(long,int):instant => -instant
+AOIU_66:145:long_addWrapField(long,int):months => -months
+AOIU_67:145:long_addWrapField(long,int):MIN => -MIN
+AOIU_68:145:long_addWrapField(long,int):iMax => -iMax
+AOIU_69:153:long_getDifferenceAsLong(long,long):minuendInstant => -minuendInstant
+AOIU_70:154:long_getDifferenceAsLong(long,long):minuendInstant => -minuendInstant
+AOIU_71:154:long_getDifferenceAsLong(long,long):minuendYear => -minuendYear
+AOIU_72:155:long_getDifferenceAsLong(long,long):subtrahendInstant => -subtrahendInstant
+AOIU_73:156:long_getDifferenceAsLong(long,long):subtrahendInstant => -subtrahendInstant
+AOIU_74:156:long_getDifferenceAsLong(long,long):subtrahendYear => -subtrahendYear
+AOIU_75:157:long_getDifferenceAsLong(long,long):minuendYear => -minuendYear
+AOIU_76:157:long_getDifferenceAsLong(long,long):iMax => -iMax
+AOIU_77:158:long_getDifferenceAsLong(long,long):minuendInstant => -minuendInstant
+AOIU_78:158:long_getDifferenceAsLong(long,long):minuendYear => -minuendYear
+AOIU_79:158:long_getDifferenceAsLong(long,long):minuendMonth => -minuendMonth
+AOIU_80:160:long_getDifferenceAsLong(long,long):subtrahendInstant => -subtrahendInstant
+AOIU_81:160:long_getDifferenceAsLong(long,long):subtrahendYear => -subtrahendYear
+AOIU_82:160:long_getDifferenceAsLong(long,long):subtrahendMonth => -subtrahendMonth
+AOIU_83:162:long_getDifferenceAsLong(long,long):subtrahendInstant => -subtrahendInstant
+AOIU_84:162:long_getDifferenceAsLong(long,long):minuendDom => -minuendDom
+AOIU_85:165:long_getDifferenceAsLong(long,long):minuendInstant => -minuendInstant
+AOIU_86:166:long_getDifferenceAsLong(long,long):subtrahendInstant => -subtrahendInstant
+AOIU_87:170:long_getDifferenceAsLong(long,long):difference => -difference
+AOIU_88:175:long_set(long,int):month => -month
+AOIU_89:175:long_set(long,int):MIN => -MIN
+AOIU_90:175:long_set(long,int):iMax => -iMax
+AOIU_91:176:long_set(long,int):instant => -instant
+AOIU_92:177:long_set(long,int):instant => -instant
+AOIU_93:177:long_set(long,int):thisYear => -thisYear
+AOIU_94:178:long_set(long,int):thisYear => -thisYear
+AOIU_95:178:long_set(long,int):month => -month
+AOIU_96:180:long_set(long,int):maxDom => -maxDom
+AOIU_97:182:long_set(long,int):thisYear => -thisYear
+AOIU_98:182:long_set(long,int):month => -month
+AOIU_99:182:long_set(long,int):thisDom => -thisDom
+AOIU_100:192:boolean_isLeap(long):instant => -instant
+AOIU_101:193:boolean_isLeap(long):thisYear => -thisYear
+AOIU_102:201:int_getLeapAmount(long):instant => -instant
+AOIU_103:211:int_getMinimumValue():MIN => -MIN
+AOIU_104:216:int_getMaximumValue():iMax => -iMax
+AOIU_105:221:long_roundFloor(long):instant => -instant
+AOIU_106:222:long_roundFloor(long):instant => -instant
+AOIU_107:222:long_roundFloor(long):year => -year
+AOIU_108:223:long_roundFloor(long):year => -year
+AOIU_109:223:long_roundFloor(long):month => -month
+AOIU_110:228:long_remainder(long):instant => -instant
+AOIS_3:34:BasicMonthOfYearDateTimeField(org.joda.time.chrono.BasicChronology,int):leapMonth => ++leapMonth
+AOIS_4:34:BasicMonthOfYearDateTimeField(org.joda.time.chrono.BasicChronology,int):leapMonth => --leapMonth
+AOIS_5:34:BasicMonthOfYearDateTimeField(org.joda.time.chrono.BasicChronology,int):leapMonth => leapMonth++
+AOIS_6:34:BasicMonthOfYearDateTimeField(org.joda.time.chrono.BasicChronology,int):leapMonth => leapMonth--
+AOIS_7:44:int_get(long):instant => instant++
+AOIS_8:44:int_get(long):instant => instant--
+AOIS_9:49:long_add(long,int):months => ++months
+AOIS_10:49:long_add(long,int):months => --months
+AOIS_11:49:long_add(long,int):months => months++
+AOIS_12:49:long_add(long,int):months => months--
+AOIS_13:50:long_add(long,int):instant => instant++
+AOIS_14:50:long_add(long,int):instant => instant--
+AOIS_15:52:long_add(long,int):instant => instant++
+AOIS_16:52:long_add(long,int):instant => instant--
+AOIS_17:53:long_add(long,int):instant => instant++
+AOIS_18:53:long_add(long,int):instant => instant--
+AOIS_19:54:long_add(long,int):instant => instant++
+AOIS_20:54:long_add(long,int):instant => instant--
+AOIS_21:54:long_add(long,int):thisYear => thisYear++
+AOIS_22:54:long_add(long,int):thisYear => thisYear--
+AOIS_23:56:long_add(long,int):thisMonth => ++thisMonth
+AOIS_24:56:long_add(long,int):thisMonth => --thisMonth
+AOIS_25:56:long_add(long,int):thisMonth => thisMonth++
+AOIS_26:56:long_add(long,int):thisMonth => thisMonth--
+AOIS_27:56:long_add(long,int):months => months++
+AOIS_28:56:long_add(long,int):months => months--
+AOIS_29:57:long_add(long,int):monthToUse => ++monthToUse
+AOIS_30:57:long_add(long,int):monthToUse => --monthToUse
+AOIS_31:57:long_add(long,int):monthToUse => monthToUse++
+AOIS_32:57:long_add(long,int):monthToUse => monthToUse--
+AOIS_33:58:long_add(long,int):thisYear => ++thisYear
+AOIS_34:58:long_add(long,int):thisYear => --thisYear
+AOIS_35:58:long_add(long,int):thisYear => thisYear++
+AOIS_36:58:long_add(long,int):thisYear => thisYear--
+AOIS_37:58:long_add(long,int):monthToUse => ++monthToUse
+AOIS_38:58:long_add(long,int):monthToUse => --monthToUse
+AOIS_39:58:long_add(long,int):monthToUse => monthToUse++
+AOIS_40:58:long_add(long,int):monthToUse => monthToUse--
+AOIS_41:58:long_add(long,int):iMax => ++iMax
+AOIS_42:58:long_add(long,int):iMax => --iMax
+AOIS_43:58:long_add(long,int):iMax => iMax++
+AOIS_44:58:long_add(long,int):iMax => iMax--
+AOIS_45:59:long_add(long,int):monthToUse => ++monthToUse
+AOIS_46:59:long_add(long,int):monthToUse => --monthToUse
+AOIS_47:59:long_add(long,int):monthToUse => monthToUse++
+AOIS_48:59:long_add(long,int):monthToUse => monthToUse--
+AOIS_49:59:long_add(long,int):iMax => ++iMax
+AOIS_50:59:long_add(long,int):iMax => --iMax
+AOIS_51:59:long_add(long,int):iMax => iMax++
+AOIS_52:59:long_add(long,int):iMax => iMax--
+AOIS_53:61:long_add(long,int):thisYear => ++thisYear
+AOIS_54:61:long_add(long,int):thisYear => --thisYear
+AOIS_55:61:long_add(long,int):thisYear => thisYear++
+AOIS_56:61:long_add(long,int):thisYear => thisYear--
+AOIS_57:61:long_add(long,int):monthToUse => ++monthToUse
+AOIS_58:61:long_add(long,int):monthToUse => --monthToUse
+AOIS_59:61:long_add(long,int):monthToUse => monthToUse++
+AOIS_60:61:long_add(long,int):monthToUse => monthToUse--
+AOIS_61:61:long_add(long,int):iMax => ++iMax
+AOIS_62:61:long_add(long,int):iMax => --iMax
+AOIS_63:61:long_add(long,int):iMax => iMax++
+AOIS_64:61:long_add(long,int):iMax => iMax--
+AOIS_65:62:long_add(long,int):monthToUse => ++monthToUse
+AOIS_66:62:long_add(long,int):monthToUse => --monthToUse
+AOIS_67:62:long_add(long,int):monthToUse => monthToUse++
+AOIS_68:62:long_add(long,int):monthToUse => monthToUse--
+AOIS_69:63:long_add(long,int):monthToUse => ++monthToUse
+AOIS_70:63:long_add(long,int):monthToUse => --monthToUse
+AOIS_71:63:long_add(long,int):monthToUse => monthToUse++
+AOIS_72:63:long_add(long,int):monthToUse => monthToUse--
+AOIS_73:63:long_add(long,int):iMax => ++iMax
+AOIS_74:63:long_add(long,int):iMax => --iMax
+AOIS_75:63:long_add(long,int):iMax => iMax++
+AOIS_76:63:long_add(long,int):iMax => iMax--
+AOIS_77:64:long_add(long,int):remMonthToUse => ++remMonthToUse
+AOIS_78:64:long_add(long,int):remMonthToUse => --remMonthToUse
+AOIS_79:64:long_add(long,int):remMonthToUse => remMonthToUse++
+AOIS_80:64:long_add(long,int):remMonthToUse => remMonthToUse--
+AOIS_81:65:long_add(long,int):iMax => ++iMax
+AOIS_82:65:long_add(long,int):iMax => --iMax
+AOIS_83:65:long_add(long,int):iMax => iMax++
+AOIS_84:65:long_add(long,int):iMax => iMax--
+AOIS_85:67:long_add(long,int):iMax => ++iMax
+AOIS_86:67:long_add(long,int):iMax => --iMax
+AOIS_87:67:long_add(long,int):iMax => iMax++
+AOIS_88:67:long_add(long,int):iMax => iMax--
+AOIS_89:67:long_add(long,int):remMonthToUse => ++remMonthToUse
+AOIS_90:67:long_add(long,int):remMonthToUse => --remMonthToUse
+AOIS_91:67:long_add(long,int):remMonthToUse => remMonthToUse++
+AOIS_92:67:long_add(long,int):remMonthToUse => remMonthToUse--
+AOIS_93:68:long_add(long,int):monthToUse => ++monthToUse
+AOIS_94:68:long_add(long,int):monthToUse => --monthToUse
+AOIS_95:68:long_add(long,int):monthToUse => monthToUse++
+AOIS_96:68:long_add(long,int):monthToUse => monthToUse--
+AOIS_97:72:long_add(long,int):instant => instant++
+AOIS_98:72:long_add(long,int):instant => instant--
+AOIS_99:72:long_add(long,int):thisYear => thisYear++
+AOIS_100:72:long_add(long,int):thisYear => thisYear--
+AOIS_101:72:long_add(long,int):thisMonth => thisMonth++
+AOIS_102:72:long_add(long,int):thisMonth => thisMonth--
+AOIS_103:73:long_add(long,int):yearToUse => yearToUse++
+AOIS_104:73:long_add(long,int):yearToUse => yearToUse--
+AOIS_105:73:long_add(long,int):monthToUse => monthToUse++
+AOIS_106:73:long_add(long,int):monthToUse => monthToUse--
+AOIS_107:74:long_add(long,int):dayToUse => ++dayToUse
+AOIS_108:74:long_add(long,int):dayToUse => --dayToUse
+AOIS_109:74:long_add(long,int):dayToUse => dayToUse++
+AOIS_110:74:long_add(long,int):dayToUse => dayToUse--
+AOIS_111:74:long_add(long,int):maxDay => ++maxDay
+AOIS_112:74:long_add(long,int):maxDay => --maxDay
+AOIS_113:74:long_add(long,int):maxDay => maxDay++
+AOIS_114:74:long_add(long,int):maxDay => maxDay--
+AOIS_115:75:long_add(long,int):maxDay => ++maxDay
+AOIS_116:75:long_add(long,int):maxDay => --maxDay
+AOIS_117:75:long_add(long,int):maxDay => maxDay++
+AOIS_118:75:long_add(long,int):maxDay => maxDay--
+AOIS_119:77:long_add(long,int):yearToUse => yearToUse++
+AOIS_120:77:long_add(long,int):yearToUse => yearToUse--
+AOIS_121:77:long_add(long,int):monthToUse => monthToUse++
+AOIS_122:77:long_add(long,int):monthToUse => monthToUse--
+AOIS_123:77:long_add(long,int):dayToUse => dayToUse++
+AOIS_124:77:long_add(long,int):dayToUse => dayToUse--
+AOIS_125:78:long_add(long,int):datePart => ++datePart
+AOIS_126:78:long_add(long,int):datePart => --datePart
+AOIS_127:78:long_add(long,int):datePart => datePart++
+AOIS_128:78:long_add(long,int):datePart => datePart--
+AOIS_129:78:long_add(long,int):timePart => ++timePart
+AOIS_130:78:long_add(long,int):timePart => --timePart
+AOIS_131:78:long_add(long,int):timePart => timePart++
+AOIS_132:78:long_add(long,int):timePart => timePart--
+AOIS_133:83:long_add(long,long):months => months++
+AOIS_134:83:long_add(long,long):months => months--
+AOIS_135:84:long_add(long,long):i_months => ++i_months
+AOIS_136:84:long_add(long,long):i_months => --i_months
+AOIS_137:84:long_add(long,long):i_months => i_months++
+AOIS_138:84:long_add(long,long):i_months => i_months--
+AOIS_139:84:long_add(long,long):months => ++months
+AOIS_140:84:long_add(long,long):months => --months
+AOIS_141:84:long_add(long,long):months => months++
+AOIS_142:84:long_add(long,long):months => months--
+AOIS_143:85:long_add(long,long):instant => instant++
+AOIS_144:85:long_add(long,long):instant => instant--
+AOIS_145:85:long_add(long,long):i_months => i_months++
+AOIS_146:85:long_add(long,long):i_months => i_months--
+AOIS_147:87:long_add(long,long):instant => instant++
+AOIS_148:87:long_add(long,long):instant => instant--
+AOIS_149:88:long_add(long,long):instant => instant++
+AOIS_150:88:long_add(long,long):instant => instant--
+AOIS_151:89:long_add(long,long):instant => instant++
+AOIS_152:89:long_add(long,long):instant => instant--
+AOIS_153:89:long_add(long,long):thisYear => thisYear++
+AOIS_154:89:long_add(long,long):thisYear => thisYear--
+AOIS_155:91:long_add(long,long):thisMonth => ++thisMonth
+AOIS_156:91:long_add(long,long):thisMonth => --thisMonth
+AOIS_157:91:long_add(long,long):thisMonth => thisMonth++
+AOIS_158:91:long_add(long,long):thisMonth => thisMonth--
+AOIS_159:91:long_add(long,long):months => months++
+AOIS_160:91:long_add(long,long):months => months--
+AOIS_161:92:long_add(long,long):monthToUse => ++monthToUse
+AOIS_162:92:long_add(long,long):monthToUse => --monthToUse
+AOIS_163:92:long_add(long,long):monthToUse => monthToUse++
+AOIS_164:92:long_add(long,long):monthToUse => monthToUse--
+AOIS_165:93:long_add(long,long):thisYear => ++thisYear
+AOIS_166:93:long_add(long,long):thisYear => --thisYear
+AOIS_167:93:long_add(long,long):thisYear => thisYear++
+AOIS_168:93:long_add(long,long):thisYear => thisYear--
+AOIS_169:93:long_add(long,long):monthToUse => ++monthToUse
+AOIS_170:93:long_add(long,long):monthToUse => --monthToUse
+AOIS_171:93:long_add(long,long):monthToUse => monthToUse++
+AOIS_172:93:long_add(long,long):monthToUse => monthToUse--
+AOIS_173:93:long_add(long,long):iMax => ++iMax
+AOIS_174:93:long_add(long,long):iMax => --iMax
+AOIS_175:93:long_add(long,long):iMax => iMax++
+AOIS_176:93:long_add(long,long):iMax => iMax--
+AOIS_177:94:long_add(long,long):monthToUse => ++monthToUse
+AOIS_178:94:long_add(long,long):monthToUse => --monthToUse
+AOIS_179:94:long_add(long,long):monthToUse => monthToUse++
+AOIS_180:94:long_add(long,long):monthToUse => monthToUse--
+AOIS_181:94:long_add(long,long):iMax => ++iMax
+AOIS_182:94:long_add(long,long):iMax => --iMax
+AOIS_183:94:long_add(long,long):iMax => iMax++
+AOIS_184:94:long_add(long,long):iMax => iMax--
+AOIS_185:96:long_add(long,long):thisYear => ++thisYear
+AOIS_186:96:long_add(long,long):thisYear => --thisYear
+AOIS_187:96:long_add(long,long):thisYear => thisYear++
+AOIS_188:96:long_add(long,long):thisYear => thisYear--
+AOIS_189:96:long_add(long,long):monthToUse => ++monthToUse
+AOIS_190:96:long_add(long,long):monthToUse => --monthToUse
+AOIS_191:96:long_add(long,long):monthToUse => monthToUse++
+AOIS_192:96:long_add(long,long):monthToUse => monthToUse--
+AOIS_193:96:long_add(long,long):iMax => ++iMax
+AOIS_194:96:long_add(long,long):iMax => --iMax
+AOIS_195:96:long_add(long,long):iMax => iMax++
+AOIS_196:96:long_add(long,long):iMax => iMax--
+AOIS_197:97:long_add(long,long):monthToUse => ++monthToUse
+AOIS_198:97:long_add(long,long):monthToUse => --monthToUse
+AOIS_199:97:long_add(long,long):monthToUse => monthToUse++
+AOIS_200:97:long_add(long,long):monthToUse => monthToUse--
+AOIS_201:98:long_add(long,long):monthToUse => ++monthToUse
+AOIS_202:98:long_add(long,long):monthToUse => --monthToUse
+AOIS_203:98:long_add(long,long):monthToUse => monthToUse++
+AOIS_204:98:long_add(long,long):monthToUse => monthToUse--
+AOIS_205:98:long_add(long,long):iMax => ++iMax
+AOIS_206:98:long_add(long,long):iMax => --iMax
+AOIS_207:98:long_add(long,long):iMax => iMax++
+AOIS_208:98:long_add(long,long):iMax => iMax--
+AOIS_209:99:long_add(long,long):remMonthToUse => ++remMonthToUse
+AOIS_210:99:long_add(long,long):remMonthToUse => --remMonthToUse
+AOIS_211:99:long_add(long,long):remMonthToUse => remMonthToUse++
+AOIS_212:99:long_add(long,long):remMonthToUse => remMonthToUse--
+AOIS_213:100:long_add(long,long):iMax => ++iMax
+AOIS_214:100:long_add(long,long):iMax => --iMax
+AOIS_215:100:long_add(long,long):iMax => iMax++
+AOIS_216:100:long_add(long,long):iMax => iMax--
+AOIS_217:102:long_add(long,long):iMax => ++iMax
+AOIS_218:102:long_add(long,long):iMax => --iMax
+AOIS_219:102:long_add(long,long):iMax => iMax++
+AOIS_220:102:long_add(long,long):iMax => iMax--
+AOIS_221:102:long_add(long,long):remMonthToUse => ++remMonthToUse
+AOIS_222:102:long_add(long,long):remMonthToUse => --remMonthToUse
+AOIS_223:102:long_add(long,long):remMonthToUse => remMonthToUse++
+AOIS_224:102:long_add(long,long):remMonthToUse => remMonthToUse--
+AOIS_225:103:long_add(long,long):monthToUse => ++monthToUse
+AOIS_226:103:long_add(long,long):monthToUse => --monthToUse
+AOIS_227:103:long_add(long,long):monthToUse => monthToUse++
+AOIS_228:103:long_add(long,long):monthToUse => monthToUse--
+AOIS_229:107:long_add(long,long):yearToUse => ++yearToUse
+AOIS_230:107:long_add(long,long):yearToUse => --yearToUse
+AOIS_231:107:long_add(long,long):yearToUse => yearToUse++
+AOIS_232:107:long_add(long,long):yearToUse => yearToUse--
+AOIS_233:107:long_add(long,long):yearToUse => ++yearToUse
+AOIS_234:107:long_add(long,long):yearToUse => --yearToUse
+AOIS_235:107:long_add(long,long):yearToUse => yearToUse++
+AOIS_236:107:long_add(long,long):yearToUse => yearToUse--
+AOIS_237:108:long_add(long,long):months => ++months
+AOIS_238:108:long_add(long,long):months => --months
+AOIS_239:108:long_add(long,long):months => months++
+AOIS_240:108:long_add(long,long):months => months--
+AOIS_241:110:long_add(long,long):yearToUse => yearToUse++
+AOIS_242:110:long_add(long,long):yearToUse => yearToUse--
+AOIS_243:111:long_add(long,long):monthToUse => monthToUse++
+AOIS_244:111:long_add(long,long):monthToUse => monthToUse--
+AOIS_245:112:long_add(long,long):instant => instant++
+AOIS_246:112:long_add(long,long):instant => instant--
+AOIS_247:112:long_add(long,long):thisYear => thisYear++
+AOIS_248:112:long_add(long,long):thisYear => thisYear--
+AOIS_249:112:long_add(long,long):thisMonth => thisMonth++
+AOIS_250:112:long_add(long,long):thisMonth => thisMonth--
+AOIS_251:113:long_add(long,long):i_yearToUse => i_yearToUse++
+AOIS_252:113:long_add(long,long):i_yearToUse => i_yearToUse--
+AOIS_253:113:long_add(long,long):i_monthToUse => i_monthToUse++
+AOIS_254:113:long_add(long,long):i_monthToUse => i_monthToUse--
+AOIS_255:114:long_add(long,long):dayToUse => ++dayToUse
+AOIS_256:114:long_add(long,long):dayToUse => --dayToUse
+AOIS_257:114:long_add(long,long):dayToUse => dayToUse++
+AOIS_258:114:long_add(long,long):dayToUse => dayToUse--
+AOIS_259:114:long_add(long,long):maxDay => ++maxDay
+AOIS_260:114:long_add(long,long):maxDay => --maxDay
+AOIS_261:114:long_add(long,long):maxDay => maxDay++
+AOIS_262:114:long_add(long,long):maxDay => maxDay--
+AOIS_263:115:long_add(long,long):maxDay => ++maxDay
+AOIS_264:115:long_add(long,long):maxDay => --maxDay
+AOIS_265:115:long_add(long,long):maxDay => maxDay++
+AOIS_266:115:long_add(long,long):maxDay => maxDay--
+AOIS_267:117:long_add(long,long):i_yearToUse => i_yearToUse++
+AOIS_268:117:long_add(long,long):i_yearToUse => i_yearToUse--
+AOIS_269:117:long_add(long,long):i_monthToUse => i_monthToUse++
+AOIS_270:117:long_add(long,long):i_monthToUse => i_monthToUse--
+AOIS_271:117:long_add(long,long):dayToUse => dayToUse++
+AOIS_272:117:long_add(long,long):dayToUse => dayToUse--
+AOIS_273:118:long_add(long,long):datePart => ++datePart
+AOIS_274:118:long_add(long,long):datePart => --datePart
+AOIS_275:118:long_add(long,long):datePart => datePart++
+AOIS_276:118:long_add(long,long):datePart => datePart--
+AOIS_277:118:long_add(long,long):timePart => ++timePart
+AOIS_278:118:long_add(long,long):timePart => --timePart
+AOIS_279:118:long_add(long,long):timePart => timePart++
+AOIS_280:118:long_add(long,long):timePart => timePart--
+AOIS_281:123:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => ++valueToAdd
+AOIS_282:123:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => --valueToAdd
+AOIS_283:123:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd++
+AOIS_284:123:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd--
+AOIS_285:126:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => ++fieldIndex
+AOIS_286:126:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => --fieldIndex
+AOIS_287:126:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => fieldIndex++
+AOIS_288:126:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => fieldIndex--
+AOIS_289:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 => ++curMonth0
+AOIS_290:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 => --curMonth0
+AOIS_291:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 => curMonth0++
+AOIS_292:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 => curMonth0--
+AOIS_293:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => ++valueToAdd
+AOIS_294:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => --valueToAdd
+AOIS_295:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd++
+AOIS_296:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd--
+AOIS_297:129:int_add(org.joda.time.ReadablePartial,int,int,int):newMonth => newMonth++
+AOIS_298:129:int_add(org.joda.time.ReadablePartial,int,int,int):newMonth => newMonth--
+AOIS_299:133:int_add(org.joda.time.ReadablePartial,int,int,int):i => ++i
+AOIS_300:133:int_add(org.joda.time.ReadablePartial,int,int,int):i => --i
+AOIS_301:133:int_add(org.joda.time.ReadablePartial,int,int,int):i => i++
+AOIS_302:133:int_add(org.joda.time.ReadablePartial,int,int,int):i => i--
+AOIS_303:133:int_add(org.joda.time.ReadablePartial,int,int,int):isize => ++isize
+AOIS_304:133:int_add(org.joda.time.ReadablePartial,int,int,int):isize => --isize
+AOIS_305:133:int_add(org.joda.time.ReadablePartial,int,int,int):isize => isize++
+AOIS_306:133:int_add(org.joda.time.ReadablePartial,int,int,int):isize => isize--
+AOIS_307:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => ++i
+AOIS_308:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => --i
+AOIS_309:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => i++
+AOIS_310:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => i--
+AOIS_311:134:int_add(org.joda.time.ReadablePartial,int,int,int):instant => ++instant
+AOIS_312:134:int_add(org.joda.time.ReadablePartial,int,int,int):instant => --instant
+AOIS_313:134:int_add(org.joda.time.ReadablePartial,int,int,int):instant => instant++
+AOIS_314:134:int_add(org.joda.time.ReadablePartial,int,int,int):instant => instant--
+AOIS_315:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => ++i
+AOIS_316:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => --i
+AOIS_317:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => i++
+AOIS_318:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => i--
+AOIS_319:136:int_add(org.joda.time.ReadablePartial,int,int,int):instant => ++instant
+AOIS_320:136:int_add(org.joda.time.ReadablePartial,int,int,int):instant => --instant
+AOIS_321:136:int_add(org.joda.time.ReadablePartial,int,int,int):instant => instant++
+AOIS_322:136:int_add(org.joda.time.ReadablePartial,int,int,int):instant => instant--
+AOIS_323:136:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => ++valueToAdd
+AOIS_324:136:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => --valueToAdd
+AOIS_325:136:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd++
+AOIS_326:136:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd--
+AOIS_327:137:int_add(org.joda.time.ReadablePartial,int,int,int):instant => instant++
+AOIS_328:137:int_add(org.joda.time.ReadablePartial,int,int,int):instant => instant--
+AOIS_329:139:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => fieldIndex++
+AOIS_330:139:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => fieldIndex--
+AOIS_331:139:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd++
+AOIS_332:139:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => valueToAdd--
+AOIS_333:145:long_addWrapField(long,int):instant => instant++
+AOIS_334:145:long_addWrapField(long,int):instant => instant--
+AOIS_335:145:long_addWrapField(long,int):instant => instant++
+AOIS_336:145:long_addWrapField(long,int):instant => instant--
+AOIS_337:145:long_addWrapField(long,int):months => months++
+AOIS_338:145:long_addWrapField(long,int):months => months--
+AOIS_339:145:long_addWrapField(long,int):MIN => MIN++
+AOIS_340:145:long_addWrapField(long,int):MIN => MIN--
+AOIS_341:145:long_addWrapField(long,int):iMax => iMax++
+AOIS_342:145:long_addWrapField(long,int):iMax => iMax--
+AOIS_343:150:long_getDifferenceAsLong(long,long):minuendInstant => ++minuendInstant
+AOIS_344:150:long_getDifferenceAsLong(long,long):minuendInstant => --minuendInstant
+AOIS_345:150:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant++
+AOIS_346:150:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant--
+AOIS_347:150:long_getDifferenceAsLong(long,long):subtrahendInstant => ++subtrahendInstant
+AOIS_348:150:long_getDifferenceAsLong(long,long):subtrahendInstant => --subtrahendInstant
+AOIS_349:150:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant++
+AOIS_350:150:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant--
+AOIS_351:153:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant++
+AOIS_352:153:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant--
+AOIS_353:154:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant++
+AOIS_354:154:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant--
+AOIS_355:154:long_getDifferenceAsLong(long,long):minuendYear => minuendYear++
+AOIS_356:154:long_getDifferenceAsLong(long,long):minuendYear => minuendYear--
+AOIS_357:155:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant++
+AOIS_358:155:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant--
+AOIS_359:156:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant++
+AOIS_360:156:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant--
+AOIS_361:156:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear++
+AOIS_362:156:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear--
+AOIS_363:157:long_getDifferenceAsLong(long,long):minuendYear => ++minuendYear
+AOIS_364:157:long_getDifferenceAsLong(long,long):minuendYear => --minuendYear
+AOIS_365:157:long_getDifferenceAsLong(long,long):minuendYear => minuendYear++
+AOIS_366:157:long_getDifferenceAsLong(long,long):minuendYear => minuendYear--
+AOIS_367:157:long_getDifferenceAsLong(long,long):subtrahendYear => ++subtrahendYear
+AOIS_368:157:long_getDifferenceAsLong(long,long):subtrahendYear => --subtrahendYear
+AOIS_369:157:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear++
+AOIS_370:157:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear--
+AOIS_371:157:long_getDifferenceAsLong(long,long):iMax => iMax++
+AOIS_372:157:long_getDifferenceAsLong(long,long):iMax => iMax--
+AOIS_373:157:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth++
+AOIS_374:157:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth--
+AOIS_375:157:long_getDifferenceAsLong(long,long):subtrahendMonth => subtrahendMonth++
+AOIS_376:157:long_getDifferenceAsLong(long,long):subtrahendMonth => subtrahendMonth--
+AOIS_377:158:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant++
+AOIS_378:158:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant--
+AOIS_379:158:long_getDifferenceAsLong(long,long):minuendYear => minuendYear++
+AOIS_380:158:long_getDifferenceAsLong(long,long):minuendYear => minuendYear--
+AOIS_381:158:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth++
+AOIS_382:158:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth--
+AOIS_383:159:long_getDifferenceAsLong(long,long):minuendDom => ++minuendDom
+AOIS_384:159:long_getDifferenceAsLong(long,long):minuendDom => --minuendDom
+AOIS_385:159:long_getDifferenceAsLong(long,long):minuendDom => minuendDom++
+AOIS_386:159:long_getDifferenceAsLong(long,long):minuendDom => minuendDom--
+AOIS_387:159:long_getDifferenceAsLong(long,long):minuendYear => ++minuendYear
+AOIS_388:159:long_getDifferenceAsLong(long,long):minuendYear => --minuendYear
+AOIS_389:159:long_getDifferenceAsLong(long,long):minuendYear => minuendYear++
+AOIS_390:159:long_getDifferenceAsLong(long,long):minuendYear => minuendYear--
+AOIS_391:159:long_getDifferenceAsLong(long,long):minuendMonth => ++minuendMonth
+AOIS_392:159:long_getDifferenceAsLong(long,long):minuendMonth => --minuendMonth
+AOIS_393:159:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth++
+AOIS_394:159:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth--
+AOIS_395:160:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant++
+AOIS_396:160:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant--
+AOIS_397:160:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear++
+AOIS_398:160:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear--
+AOIS_399:160:long_getDifferenceAsLong(long,long):subtrahendMonth => subtrahendMonth++
+AOIS_400:160:long_getDifferenceAsLong(long,long):subtrahendMonth => subtrahendMonth--
+AOIS_401:161:long_getDifferenceAsLong(long,long):subtrahendDom => ++subtrahendDom
+AOIS_402:161:long_getDifferenceAsLong(long,long):subtrahendDom => --subtrahendDom
+AOIS_403:161:long_getDifferenceAsLong(long,long):subtrahendDom => subtrahendDom++
+AOIS_404:161:long_getDifferenceAsLong(long,long):subtrahendDom => subtrahendDom--
+AOIS_405:161:long_getDifferenceAsLong(long,long):minuendDom => ++minuendDom
+AOIS_406:161:long_getDifferenceAsLong(long,long):minuendDom => --minuendDom
+AOIS_407:161:long_getDifferenceAsLong(long,long):minuendDom => minuendDom++
+AOIS_408:161:long_getDifferenceAsLong(long,long):minuendDom => minuendDom--
+AOIS_409:162:long_getDifferenceAsLong(long,long):subtrahendInstant => ++subtrahendInstant
+AOIS_410:162:long_getDifferenceAsLong(long,long):subtrahendInstant => --subtrahendInstant
+AOIS_411:162:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant++
+AOIS_412:162:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant--
+AOIS_413:162:long_getDifferenceAsLong(long,long):minuendDom => ++minuendDom
+AOIS_414:162:long_getDifferenceAsLong(long,long):minuendDom => --minuendDom
+AOIS_415:162:long_getDifferenceAsLong(long,long):minuendDom => minuendDom++
+AOIS_416:162:long_getDifferenceAsLong(long,long):minuendDom => minuendDom--
+AOIS_417:165:long_getDifferenceAsLong(long,long):minuendInstant => ++minuendInstant
+AOIS_418:165:long_getDifferenceAsLong(long,long):minuendInstant => --minuendInstant
+AOIS_419:165:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant++
+AOIS_420:165:long_getDifferenceAsLong(long,long):minuendInstant => minuendInstant--
+AOIS_421:165:long_getDifferenceAsLong(long,long):minuendYear => ++minuendYear
+AOIS_422:165:long_getDifferenceAsLong(long,long):minuendYear => --minuendYear
+AOIS_423:165:long_getDifferenceAsLong(long,long):minuendYear => minuendYear++
+AOIS_424:165:long_getDifferenceAsLong(long,long):minuendYear => minuendYear--
+AOIS_425:165:long_getDifferenceAsLong(long,long):minuendMonth => ++minuendMonth
+AOIS_426:165:long_getDifferenceAsLong(long,long):minuendMonth => --minuendMonth
+AOIS_427:165:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth++
+AOIS_428:165:long_getDifferenceAsLong(long,long):minuendMonth => minuendMonth--
+AOIS_429:166:long_getDifferenceAsLong(long,long):subtrahendInstant => ++subtrahendInstant
+AOIS_430:166:long_getDifferenceAsLong(long,long):subtrahendInstant => --subtrahendInstant
+AOIS_431:166:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant++
+AOIS_432:166:long_getDifferenceAsLong(long,long):subtrahendInstant => subtrahendInstant--
+AOIS_433:166:long_getDifferenceAsLong(long,long):subtrahendYear => ++subtrahendYear
+AOIS_434:166:long_getDifferenceAsLong(long,long):subtrahendYear => --subtrahendYear
+AOIS_435:166:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear++
+AOIS_436:166:long_getDifferenceAsLong(long,long):subtrahendYear => subtrahendYear--
+AOIS_437:166:long_getDifferenceAsLong(long,long):subtrahendMonth => ++subtrahendMonth
+AOIS_438:166:long_getDifferenceAsLong(long,long):subtrahendMonth => --subtrahendMonth
+AOIS_439:166:long_getDifferenceAsLong(long,long):subtrahendMonth => subtrahendMonth++
+AOIS_440:166:long_getDifferenceAsLong(long,long):subtrahendMonth => subtrahendMonth--
+AOIS_441:167:long_getDifferenceAsLong(long,long):minuendRem => ++minuendRem
+AOIS_442:167:long_getDifferenceAsLong(long,long):minuendRem => --minuendRem
+AOIS_443:167:long_getDifferenceAsLong(long,long):minuendRem => minuendRem++
+AOIS_444:167:long_getDifferenceAsLong(long,long):minuendRem => minuendRem--
+AOIS_445:167:long_getDifferenceAsLong(long,long):subtrahendRem => ++subtrahendRem
+AOIS_446:167:long_getDifferenceAsLong(long,long):subtrahendRem => --subtrahendRem
+AOIS_447:167:long_getDifferenceAsLong(long,long):subtrahendRem => subtrahendRem++
+AOIS_448:167:long_getDifferenceAsLong(long,long):subtrahendRem => subtrahendRem--
+AOIS_449:170:long_getDifferenceAsLong(long,long):difference => difference++
+AOIS_450:170:long_getDifferenceAsLong(long,long):difference => difference--
+AOIS_451:175:long_set(long,int):month => month++
+AOIS_452:175:long_set(long,int):month => month--
+AOIS_453:175:long_set(long,int):MIN => MIN++
+AOIS_454:175:long_set(long,int):MIN => MIN--
+AOIS_455:175:long_set(long,int):iMax => iMax++
+AOIS_456:175:long_set(long,int):iMax => iMax--
+AOIS_457:176:long_set(long,int):instant => instant++
+AOIS_458:176:long_set(long,int):instant => instant--
+AOIS_459:177:long_set(long,int):instant => instant++
+AOIS_460:177:long_set(long,int):instant => instant--
+AOIS_461:177:long_set(long,int):thisYear => thisYear++
+AOIS_462:177:long_set(long,int):thisYear => thisYear--
+AOIS_463:178:long_set(long,int):thisYear => thisYear++
+AOIS_464:178:long_set(long,int):thisYear => thisYear--
+AOIS_465:178:long_set(long,int):month => month++
+AOIS_466:178:long_set(long,int):month => month--
+AOIS_467:179:long_set(long,int):thisDom => ++thisDom
+AOIS_468:179:long_set(long,int):thisDom => --thisDom
+AOIS_469:179:long_set(long,int):thisDom => thisDom++
+AOIS_470:179:long_set(long,int):thisDom => thisDom--
+AOIS_471:179:long_set(long,int):maxDom => ++maxDom
+AOIS_472:179:long_set(long,int):maxDom => --maxDom
+AOIS_473:179:long_set(long,int):maxDom => maxDom++
+AOIS_474:179:long_set(long,int):maxDom => maxDom--
+AOIS_475:180:long_set(long,int):maxDom => ++maxDom
+AOIS_476:180:long_set(long,int):maxDom => --maxDom
+AOIS_477:180:long_set(long,int):maxDom => maxDom++
+AOIS_478:180:long_set(long,int):maxDom => maxDom--
+AOIS_479:182:long_set(long,int):thisYear => ++thisYear
+AOIS_480:182:long_set(long,int):thisYear => --thisYear
+AOIS_481:182:long_set(long,int):thisYear => thisYear++
+AOIS_482:182:long_set(long,int):thisYear => thisYear--
+AOIS_483:182:long_set(long,int):month => ++month
+AOIS_484:182:long_set(long,int):month => --month
+AOIS_485:182:long_set(long,int):month => month++
+AOIS_486:182:long_set(long,int):month => month--
+AOIS_487:182:long_set(long,int):thisDom => ++thisDom
+AOIS_488:182:long_set(long,int):thisDom => --thisDom
+AOIS_489:182:long_set(long,int):thisDom => thisDom++
+AOIS_490:182:long_set(long,int):thisDom => thisDom--
+AOIS_491:182:long_set(long,int):instant => ++instant
+AOIS_492:182:long_set(long,int):instant => --instant
+AOIS_493:182:long_set(long,int):instant => instant++
+AOIS_494:182:long_set(long,int):instant => instant--
+AOIS_495:192:boolean_isLeap(long):instant => instant++
+AOIS_496:192:boolean_isLeap(long):instant => instant--
+AOIS_497:193:boolean_isLeap(long):thisYear => thisYear++
+AOIS_498:193:boolean_isLeap(long):thisYear => thisYear--
+AOIS_499:194:boolean_isLeap(long):instant => ++instant
+AOIS_500:194:boolean_isLeap(long):instant => --instant
+AOIS_501:194:boolean_isLeap(long):instant => instant++
+AOIS_502:194:boolean_isLeap(long):instant => instant--
+AOIS_503:194:boolean_isLeap(long):thisYear => ++thisYear
+AOIS_504:194:boolean_isLeap(long):thisYear => --thisYear
+AOIS_505:194:boolean_isLeap(long):thisYear => thisYear++
+AOIS_506:194:boolean_isLeap(long):thisYear => thisYear--
+AOIS_507:194:boolean_isLeap(long):iLeapMonth => ++iLeapMonth
+AOIS_508:194:boolean_isLeap(long):iLeapMonth => --iLeapMonth
+AOIS_509:194:boolean_isLeap(long):iLeapMonth => iLeapMonth++
+AOIS_510:194:boolean_isLeap(long):iLeapMonth => iLeapMonth--
+AOIS_511:201:int_getLeapAmount(long):instant => instant++
+AOIS_512:201:int_getLeapAmount(long):instant => instant--
+AOIS_513:211:int_getMinimumValue():MIN => MIN++
+AOIS_514:211:int_getMinimumValue():MIN => MIN--
+AOIS_515:216:int_getMaximumValue():iMax => iMax++
+AOIS_516:216:int_getMaximumValue():iMax => iMax--
+AOIS_517:221:long_roundFloor(long):instant => instant++
+AOIS_518:221:long_roundFloor(long):instant => instant--
+AOIS_519:222:long_roundFloor(long):instant => instant++
+AOIS_520:222:long_roundFloor(long):instant => instant--
+AOIS_521:222:long_roundFloor(long):year => year++
+AOIS_522:222:long_roundFloor(long):year => year--
+AOIS_523:223:long_roundFloor(long):year => year++
+AOIS_524:223:long_roundFloor(long):year => year--
+AOIS_525:223:long_roundFloor(long):month => month++
+AOIS_526:223:long_roundFloor(long):month => month--
+AOIS_527:228:long_remainder(long):instant => ++instant
+AOIS_528:228:long_remainder(long):instant => --instant
+AOIS_529:228:long_remainder(long):instant => instant++
+AOIS_530:228:long_remainder(long):instant => instant--
+AOIS_531:228:long_remainder(long):instant => ++instant
+AOIS_532:228:long_remainder(long):instant => --instant
+AOIS_533:228:long_remainder(long):instant => instant++
+AOIS_534:228:long_remainder(long):instant => instant--
+ROR_1:49:long_add(long,int): months == 0  =>   months > 0
+ROR_2:49:long_add(long,int): months == 0  =>   months >= 0
+ROR_3:49:long_add(long,int): months == 0  =>   months < 0
+ROR_4:49:long_add(long,int): months == 0  =>   months <= 0
+ROR_5:49:long_add(long,int): months == 0  =>   months != 0
+ROR_6:49:long_add(long,int): months == 0  =>   true
+ROR_7:49:long_add(long,int): months == 0  =>   false
+ROR_8:57:long_add(long,int): monthToUse >= 0  =>   monthToUse > 0
+ROR_9:57:long_add(long,int): monthToUse >= 0  =>   monthToUse < 0
+ROR_10:57:long_add(long,int): monthToUse >= 0  =>   monthToUse <= 0
+ROR_11:57:long_add(long,int): monthToUse >= 0  =>   monthToUse == 0
+ROR_12:57:long_add(long,int): monthToUse >= 0  =>   monthToUse != 0
+ROR_13:57:long_add(long,int): monthToUse >= 0  =>   true
+ROR_14:57:long_add(long,int): monthToUse >= 0  =>   false
+ROR_15:64:long_add(long,int): remMonthToUse == 0  =>   remMonthToUse > 0
+ROR_16:64:long_add(long,int): remMonthToUse == 0  =>   remMonthToUse >= 0
+ROR_17:64:long_add(long,int): remMonthToUse == 0  =>   remMonthToUse < 0
+ROR_18:64:long_add(long,int): remMonthToUse == 0  =>   remMonthToUse <= 0
+ROR_19:64:long_add(long,int): remMonthToUse == 0  =>   remMonthToUse != 0
+ROR_20:64:long_add(long,int): remMonthToUse == 0  =>   true
+ROR_21:64:long_add(long,int): remMonthToUse == 0  =>   false
+ROR_22:68:long_add(long,int): monthToUse == 1  =>   monthToUse > 1
+ROR_23:68:long_add(long,int): monthToUse == 1  =>   monthToUse >= 1
+ROR_24:68:long_add(long,int): monthToUse == 1  =>   monthToUse < 1
+ROR_25:68:long_add(long,int): monthToUse == 1  =>   monthToUse <= 1
+ROR_26:68:long_add(long,int): monthToUse == 1  =>   monthToUse != 1
+ROR_27:68:long_add(long,int): monthToUse == 1  =>   true
+ROR_28:68:long_add(long,int): monthToUse == 1  =>   false
+ROR_29:74:long_add(long,int): dayToUse > maxDay  =>   dayToUse >= maxDay
+ROR_30:74:long_add(long,int): dayToUse > maxDay  =>   dayToUse < maxDay
+ROR_31:74:long_add(long,int): dayToUse > maxDay  =>   dayToUse <= maxDay
+ROR_32:74:long_add(long,int): dayToUse > maxDay  =>   dayToUse == maxDay
+ROR_33:74:long_add(long,int): dayToUse > maxDay  =>   dayToUse != maxDay
+ROR_34:74:long_add(long,int): dayToUse > maxDay  =>   true
+ROR_35:74:long_add(long,int): dayToUse > maxDay  =>   false
+ROR_36:84:long_add(long,long): i_months == months  =>   i_months > months
+ROR_37:84:long_add(long,long): i_months == months  =>   i_months >= months
+ROR_38:84:long_add(long,long): i_months == months  =>   i_months < months
+ROR_39:84:long_add(long,long): i_months == months  =>   i_months <= months
+ROR_40:84:long_add(long,long): i_months == months  =>   i_months != months
+ROR_41:84:long_add(long,long): i_months == months  =>   true
+ROR_42:84:long_add(long,long): i_months == months  =>   false
+ROR_43:92:long_add(long,long): monthToUse >= 0  =>   monthToUse > 0
+ROR_44:92:long_add(long,long): monthToUse >= 0  =>   monthToUse < 0
+ROR_45:92:long_add(long,long): monthToUse >= 0  =>   monthToUse <= 0
+ROR_46:92:long_add(long,long): monthToUse >= 0  =>   monthToUse == 0
+ROR_47:92:long_add(long,long): monthToUse >= 0  =>   monthToUse != 0
+ROR_48:92:long_add(long,long): monthToUse >= 0  =>   true
+ROR_49:92:long_add(long,long): monthToUse >= 0  =>   false
+ROR_50:99:long_add(long,long): remMonthToUse == 0  =>   remMonthToUse > 0
+ROR_51:99:long_add(long,long): remMonthToUse == 0  =>   remMonthToUse >= 0
+ROR_52:99:long_add(long,long): remMonthToUse == 0  =>   remMonthToUse < 0
+ROR_53:99:long_add(long,long): remMonthToUse == 0  =>   remMonthToUse <= 0
+ROR_54:99:long_add(long,long): remMonthToUse == 0  =>   remMonthToUse != 0
+ROR_55:99:long_add(long,long): remMonthToUse == 0  =>   true
+ROR_56:99:long_add(long,long): remMonthToUse == 0  =>   false
+ROR_57:103:long_add(long,long): monthToUse == 1  =>   monthToUse > 1
+ROR_58:103:long_add(long,long): monthToUse == 1  =>   monthToUse >= 1
+ROR_59:103:long_add(long,long): monthToUse == 1  =>   monthToUse < 1
+ROR_60:103:long_add(long,long): monthToUse == 1  =>   monthToUse <= 1
+ROR_61:103:long_add(long,long): monthToUse == 1  =>   monthToUse != 1
+ROR_62:103:long_add(long,long): monthToUse == 1  =>   true
+ROR_63:103:long_add(long,long): monthToUse == 1  =>   false
+ROR_64:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>   yearToUse >= iChronology.getMaxYear()
+ROR_65:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>   yearToUse < iChronology.getMaxYear()
+ROR_66:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>   yearToUse <= iChronology.getMaxYear()
+ROR_67:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>   yearToUse == iChronology.getMaxYear()
+ROR_68:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>   yearToUse != iChronology.getMaxYear()
+ROR_69:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>   true
+ROR_70:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>   false
+ROR_71:114:long_add(long,long): dayToUse > maxDay  =>   dayToUse >= maxDay
+ROR_72:114:long_add(long,long): dayToUse > maxDay  =>   dayToUse < maxDay
+ROR_73:114:long_add(long,long): dayToUse > maxDay  =>   dayToUse <= maxDay
+ROR_74:114:long_add(long,long): dayToUse > maxDay  =>   dayToUse == maxDay
+ROR_75:114:long_add(long,long): dayToUse > maxDay  =>   dayToUse != maxDay
+ROR_76:114:long_add(long,long): dayToUse > maxDay  =>   true
+ROR_77:114:long_add(long,long): dayToUse > maxDay  =>   false
+ROR_78:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>   valueToAdd > 0
+ROR_79:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>   valueToAdd >= 0
+ROR_80:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>   valueToAdd < 0
+ROR_81:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>   valueToAdd <= 0
+ROR_82:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>   valueToAdd != 0
+ROR_83:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>   true
+ROR_84:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>   false
+ROR_85:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>   partial.size() >= 0
+ROR_86:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>   partial.size() < 0
+ROR_87:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>   partial.size() <= 0
+ROR_88:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>   partial.size() == 0
+ROR_89:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>   partial.size() != 0
+ROR_90:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>   true
+ROR_91:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>   false
+ROR_92:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>   fieldIndex > 0
+ROR_93:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>   fieldIndex >= 0
+ROR_94:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>   fieldIndex < 0
+ROR_95:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>   fieldIndex <= 0
+ROR_96:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>   fieldIndex != 0
+ROR_97:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>   true
+ROR_98:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>   false
+ROR_99:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>   minuendDom > iChronology.getDaysInYearMonth( minuendYear, minuendMonth )
+ROR_100:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>   minuendDom >= iChronology.getDaysInYearMonth( minuendYear, minuendMonth )
+ROR_101:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>   minuendDom < iChronology.getDaysInYearMonth( minuendYear, minuendMonth )
+ROR_102:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>   minuendDom <= iChronology.getDaysInYearMonth( minuendYear, minuendMonth )
+ROR_103:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>   minuendDom != iChronology.getDaysInYearMonth( minuendYear, minuendMonth )
+ROR_104:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>   true
+ROR_105:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>   false
+ROR_106:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>   subtrahendDom >= minuendDom
+ROR_107:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>   subtrahendDom < minuendDom
+ROR_108:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>   subtrahendDom <= minuendDom
+ROR_109:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>   subtrahendDom == minuendDom
+ROR_110:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>   subtrahendDom != minuendDom
+ROR_111:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>   true
+ROR_112:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>   false
+ROR_113:179:long_set(long,int): thisDom > maxDom  =>   thisDom >= maxDom
+ROR_114:179:long_set(long,int): thisDom > maxDom  =>   thisDom < maxDom
+ROR_115:179:long_set(long,int): thisDom > maxDom  =>   thisDom <= maxDom
+ROR_116:179:long_set(long,int): thisDom > maxDom  =>   thisDom == maxDom
+ROR_117:179:long_set(long,int): thisDom > maxDom  =>   thisDom != maxDom
+ROR_118:179:long_set(long,int): thisDom > maxDom  =>   true
+ROR_119:179:long_set(long,int): thisDom > maxDom  =>   false
+ROR_120:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>   iChronology.getMonthOfYear( instant, thisYear ) > iLeapMonth
+ROR_121:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>   iChronology.getMonthOfYear( instant, thisYear ) >= iLeapMonth
+ROR_122:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>   iChronology.getMonthOfYear( instant, thisYear ) < iLeapMonth
+ROR_123:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>   iChronology.getMonthOfYear( instant, thisYear ) <= iLeapMonth
+ROR_124:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>   iChronology.getMonthOfYear( instant, thisYear ) != iLeapMonth
+ROR_125:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>   true
+ROR_126:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>   false
+COR_1:107:long_add(long,long): yearToUse < iChronology.getMinYear() || yearToUse > iChronology.getMaxYear()  =>   yearToUse < iChronology.getMinYear() && yearToUse > iChronology.getMaxYear()
+COR_2:107:long_add(long,long): yearToUse < iChronology.getMinYear() || yearToUse > iChronology.getMaxYear()  =>   yearToUse < iChronology.getMinYear() ^ yearToUse > iChronology.getMaxYear()
+COR_3:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() )  =>   partial.size() > 0 || partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() )
+COR_4:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() )  =>   partial.size() > 0 ^ partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() )
+COR_5:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() ) && fieldIndex == 0  =>   partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() ) || fieldIndex == 0
+COR_6:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() ) && fieldIndex == 0  =>   (partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() )) ^ fieldIndex == 0
+COI_1:49:long_add(long,int): months == 0  =>  !(months == 0)
+COI_2:57:long_add(long,int): monthToUse >= 0  =>  !(monthToUse >= 0)
+COI_3:64:long_add(long,int): remMonthToUse == 0  =>  !(remMonthToUse == 0)
+COI_4:68:long_add(long,int): monthToUse == 1  =>  !(monthToUse == 1)
+COI_5:74:long_add(long,int): dayToUse > maxDay  =>  !(dayToUse > maxDay)
+COI_6:84:long_add(long,long): i_months == months  =>  !(i_months == months)
+COI_7:92:long_add(long,long): monthToUse >= 0  =>  !(monthToUse >= 0)
+COI_8:99:long_add(long,long): remMonthToUse == 0  =>  !(remMonthToUse == 0)
+COI_9:103:long_add(long,long): monthToUse == 1  =>  !(monthToUse == 1)
+COI_10:107:long_add(long,long): yearToUse < iChronology.getMinYear()  =>  !(yearToUse < iChronology.getMinYear())
+COI_11:107:long_add(long,long): yearToUse > iChronology.getMaxYear()  =>  !(yearToUse > iChronology.getMaxYear())
+COI_12:107:long_add(long,long): yearToUse < iChronology.getMinYear() || yearToUse > iChronology.getMaxYear()  =>  !(yearToUse < iChronology.getMinYear() || yearToUse > iChronology.getMaxYear())
+COI_13:114:long_add(long,long): dayToUse > maxDay  =>  !(dayToUse > maxDay)
+COI_14:123:int_add(org.joda.time.ReadablePartial,int,int,int): valueToAdd == 0  =>  !(valueToAdd == 0)
+COI_15:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0  =>  !(partial.size() > 0)
+COI_16:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() )  =>  !(partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() ))
+COI_17:126:int_add(org.joda.time.ReadablePartial,int,int,int): fieldIndex == 0  =>  !(fieldIndex == 0)
+COI_18:126:int_add(org.joda.time.ReadablePartial,int,int,int): partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() ) && fieldIndex == 0  =>  !(partial.size() > 0 && partial.getFieldType( 0 ).equals( DateTimeFieldType.monthOfYear() ) && fieldIndex == 0)
+COI_19:133:int_add(org.joda.time.ReadablePartial,int,int,int): i < isize  =>  !(i < isize)
+COI_20:150:long_getDifferenceAsLong(long,long): minuendInstant < subtrahendInstant  =>  !(minuendInstant < subtrahendInstant)
+COI_21:159:long_getDifferenceAsLong(long,long): minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth )  =>  !(minuendDom == iChronology.getDaysInYearMonth( minuendYear, minuendMonth ))
+COI_22:161:long_getDifferenceAsLong(long,long): subtrahendDom > minuendDom  =>  !(subtrahendDom > minuendDom)
+COI_23:167:long_getDifferenceAsLong(long,long): minuendRem < subtrahendRem  =>  !(minuendRem < subtrahendRem)
+COI_24:179:long_set(long,int): thisDom > maxDom  =>  !(thisDom > maxDom)
+COI_25:194:boolean_isLeap(long): iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth  =>  !(iChronology.getMonthOfYear( instant, thisYear ) == iLeapMonth)
+LOI_2:34:BasicMonthOfYearDateTimeField(org.joda.time.chrono.BasicChronology,int):leapMonth => ~leapMonth
+LOI_3:44:int_get(long):instant => ~instant
+LOI_4:49:long_add(long,int):months => ~months
+LOI_5:50:long_add(long,int):instant => ~instant
+LOI_6:52:long_add(long,int):instant => ~instant
+LOI_7:53:long_add(long,int):instant => ~instant
+LOI_8:54:long_add(long,int):instant => ~instant
+LOI_9:54:long_add(long,int):thisYear => ~thisYear
+LOI_10:56:long_add(long,int):thisMonth => ~thisMonth
+LOI_11:56:long_add(long,int):months => ~months
+LOI_12:57:long_add(long,int):monthToUse => ~monthToUse
+LOI_13:58:long_add(long,int):thisYear => ~thisYear
+LOI_14:58:long_add(long,int):monthToUse => ~monthToUse
+LOI_15:58:long_add(long,int):iMax => ~iMax
+LOI_16:59:long_add(long,int):monthToUse => ~monthToUse
+LOI_17:59:long_add(long,int):iMax => ~iMax
+LOI_18:61:long_add(long,int):thisYear => ~thisYear
+LOI_19:61:long_add(long,int):monthToUse => ~monthToUse
+LOI_20:61:long_add(long,int):iMax => ~iMax
+LOI_21:62:long_add(long,int):monthToUse => ~monthToUse
+LOI_22:63:long_add(long,int):monthToUse => ~monthToUse
+LOI_23:63:long_add(long,int):iMax => ~iMax
+LOI_24:64:long_add(long,int):remMonthToUse => ~remMonthToUse
+LOI_25:65:long_add(long,int):iMax => ~iMax
+LOI_26:67:long_add(long,int):iMax => ~iMax
+LOI_27:67:long_add(long,int):remMonthToUse => ~remMonthToUse
+LOI_28:68:long_add(long,int):monthToUse => ~monthToUse
+LOI_29:72:long_add(long,int):instant => ~instant
+LOI_30:72:long_add(long,int):thisYear => ~thisYear
+LOI_31:72:long_add(long,int):thisMonth => ~thisMonth
+LOI_32:73:long_add(long,int):yearToUse => ~yearToUse
+LOI_33:73:long_add(long,int):monthToUse => ~monthToUse
+LOI_34:74:long_add(long,int):dayToUse => ~dayToUse
+LOI_35:74:long_add(long,int):maxDay => ~maxDay
+LOI_36:75:long_add(long,int):maxDay => ~maxDay
+LOI_37:77:long_add(long,int):yearToUse => ~yearToUse
+LOI_38:77:long_add(long,int):monthToUse => ~monthToUse
+LOI_39:77:long_add(long,int):dayToUse => ~dayToUse
+LOI_40:78:long_add(long,int):datePart => ~datePart
+LOI_41:78:long_add(long,int):timePart => ~timePart
+LOI_42:83:long_add(long,long):months => ~months
+LOI_43:84:long_add(long,long):i_months => ~i_months
+LOI_44:84:long_add(long,long):months => ~months
+LOI_45:85:long_add(long,long):instant => ~instant
+LOI_46:85:long_add(long,long):i_months => ~i_months
+LOI_47:87:long_add(long,long):instant => ~instant
+LOI_48:88:long_add(long,long):instant => ~instant
+LOI_49:89:long_add(long,long):instant => ~instant
+LOI_50:89:long_add(long,long):thisYear => ~thisYear
+LOI_51:91:long_add(long,long):thisMonth => ~thisMonth
+LOI_52:91:long_add(long,long):months => ~months
+LOI_53:92:long_add(long,long):monthToUse => ~monthToUse
+LOI_54:93:long_add(long,long):thisYear => ~thisYear
+LOI_55:93:long_add(long,long):monthToUse => ~monthToUse
+LOI_56:93:long_add(long,long):iMax => ~iMax
+LOI_57:94:long_add(long,long):monthToUse => ~monthToUse
+LOI_58:94:long_add(long,long):iMax => ~iMax
+LOI_59:96:long_add(long,long):thisYear => ~thisYear
+LOI_60:96:long_add(long,long):monthToUse => ~monthToUse
+LOI_61:96:long_add(long,long):iMax => ~iMax
+LOI_62:97:long_add(long,long):monthToUse => ~monthToUse
+LOI_63:98:long_add(long,long):monthToUse => ~monthToUse
+LOI_64:98:long_add(long,long):iMax => ~iMax
+LOI_65:99:long_add(long,long):remMonthToUse => ~remMonthToUse
+LOI_66:100:long_add(long,long):iMax => ~iMax
+LOI_67:102:long_add(long,long):iMax => ~iMax
+LOI_68:102:long_add(long,long):remMonthToUse => ~remMonthToUse
+LOI_69:103:long_add(long,long):monthToUse => ~monthToUse
+LOI_70:107:long_add(long,long):yearToUse => ~yearToUse
+LOI_71:107:long_add(long,long):yearToUse => ~yearToUse
+LOI_72:108:long_add(long,long):months => ~months
+LOI_73:110:long_add(long,long):yearToUse => ~yearToUse
+LOI_74:111:long_add(long,long):monthToUse => ~monthToUse
+LOI_75:112:long_add(long,long):instant => ~instant
+LOI_76:112:long_add(long,long):thisYear => ~thisYear
+LOI_77:112:long_add(long,long):thisMonth => ~thisMonth
+LOI_78:113:long_add(long,long):i_yearToUse => ~i_yearToUse
+LOI_79:113:long_add(long,long):i_monthToUse => ~i_monthToUse
+LOI_80:114:long_add(long,long):dayToUse => ~dayToUse
+LOI_81:114:long_add(long,long):maxDay => ~maxDay
+LOI_82:115:long_add(long,long):maxDay => ~maxDay
+LOI_83:117:long_add(long,long):i_yearToUse => ~i_yearToUse
+LOI_84:117:long_add(long,long):i_monthToUse => ~i_monthToUse
+LOI_85:117:long_add(long,long):dayToUse => ~dayToUse
+LOI_86:118:long_add(long,long):datePart => ~datePart
+LOI_87:118:long_add(long,long):timePart => ~timePart
+LOI_88:123:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => ~valueToAdd
+LOI_89:126:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => ~fieldIndex
+LOI_90:128:int_add(org.joda.time.ReadablePartial,int,int,int):curMonth0 => ~curMonth0
+LOI_91:128:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => ~valueToAdd
+LOI_92:129:int_add(org.joda.time.ReadablePartial,int,int,int):newMonth => ~newMonth
+LOI_93:133:int_add(org.joda.time.ReadablePartial,int,int,int):i => ~i
+LOI_94:133:int_add(org.joda.time.ReadablePartial,int,int,int):isize => ~isize
+LOI_95:133:int_add(org.joda.time.ReadablePartial,int,int,int):i => ~i
+LOI_96:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => ~i
+LOI_97:134:int_add(org.joda.time.ReadablePartial,int,int,int):instant => ~instant
+LOI_98:134:int_add(org.joda.time.ReadablePartial,int,int,int):i => ~i
+LOI_99:136:int_add(org.joda.time.ReadablePartial,int,int,int):instant => ~instant
+LOI_100:136:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => ~valueToAdd
+LOI_101:137:int_add(org.joda.time.ReadablePartial,int,int,int):instant => ~instant
+LOI_102:139:int_add(org.joda.time.ReadablePartial,int,int,int):fieldIndex => ~fieldIndex
+LOI_103:139:int_add(org.joda.time.ReadablePartial,int,int,int):valueToAdd => ~valueToAdd
+LOI_104:145:long_addWrapField(long,int):instant => ~instant
+LOI_105:145:long_addWrapField(long,int):instant => ~instant
+LOI_106:145:long_addWrapField(long,int):months => ~months
+LOI_107:145:long_addWrapField(long,int):MIN => ~MIN
+LOI_108:145:long_addWrapField(long,int):iMax => ~iMax
+LOI_109:150:long_getDifferenceAsLong(long,long):minuendInstant => ~minuendInstant
+LOI_110:150:long_getDifferenceAsLong(long,long):subtrahendInstant => ~subtrahendInstant
+LOI_111:151:long_getDifferenceAsLong(long,long):subtrahendInstant => ~subtrahendInstant
+LOI_112:151:long_getDifferenceAsLong(long,long):minuendInstant => ~minuendInstant
+LOI_113:153:long_getDifferenceAsLong(long,long):minuendInstant => ~minuendInstant
+LOI_114:154:long_getDifferenceAsLong(long,long):minuendInstant => ~minuendInstant
+LOI_115:154:long_getDifferenceAsLong(long,long):minuendYear => ~minuendYear
+LOI_116:155:long_getDifferenceAsLong(long,long):subtrahendInstant => ~subtrahendInstant
+LOI_117:156:long_getDifferenceAsLong(long,long):subtrahendInstant => ~subtrahendInstant
+LOI_118:156:long_getDifferenceAsLong(long,long):subtrahendYear => ~subtrahendYear
+LOI_119:157:long_getDifferenceAsLong(long,long):minuendYear => ~minuendYear
+LOI_120:157:long_getDifferenceAsLong(long,long):subtrahendYear => ~subtrahendYear
+LOI_121:157:long_getDifferenceAsLong(long,long):iMax => ~iMax
+LOI_122:157:long_getDifferenceAsLong(long,long):minuendMonth => ~minuendMonth
+LOI_123:157:long_getDifferenceAsLong(long,long):subtrahendMonth => ~subtrahendMonth
+LOI_124:158:long_getDifferenceAsLong(long,long):minuendInstant => ~minuendInstant
+LOI_125:158:long_getDifferenceAsLong(long,long):minuendYear => ~minuendYear
+LOI_126:158:long_getDifferenceAsLong(long,long):minuendMonth => ~minuendMonth
+LOI_127:159:long_getDifferenceAsLong(long,long):minuendDom => ~minuendDom
+LOI_128:159:long_getDifferenceAsLong(long,long):minuendYear => ~minuendYear
+LOI_129:159:long_getDifferenceAsLong(long,long):minuendMonth => ~minuendMonth
+LOI_130:160:long_getDifferenceAsLong(long,long):subtrahendInstant => ~subtrahendInstant
+LOI_131:160:long_getDifferenceAsLong(long,long):subtrahendYear => ~subtrahendYear
+LOI_132:160:long_getDifferenceAsLong(long,long):subtrahendMonth => ~subtrahendMonth
+LOI_133:161:long_getDifferenceAsLong(long,long):subtrahendDom => ~subtrahendDom
+LOI_134:161:long_getDifferenceAsLong(long,long):minuendDom => ~minuendDom
+LOI_135:162:long_getDifferenceAsLong(long,long):subtrahendInstant => ~subtrahendInstant
+LOI_136:162:long_getDifferenceAsLong(long,long):minuendDom => ~minuendDom
+LOI_137:165:long_getDifferenceAsLong(long,long):minuendInstant => ~minuendInstant
+LOI_138:165:long_getDifferenceAsLong(long,long):minuendYear => ~minuendYear
+LOI_139:165:long_getDifferenceAsLong(long,long):minuendMonth => ~minuendMonth
+LOI_140:166:long_getDifferenceAsLong(long,long):subtrahendInstant => ~subtrahendInstant
+LOI_141:166:long_getDifferenceAsLong(long,long):subtrahendYear => ~subtrahendYear
+LOI_142:166:long_getDifferenceAsLong(long,long):subtrahendMonth => ~subtrahendMonth
+LOI_143:167:long_getDifferenceAsLong(long,long):minuendRem => ~minuendRem
+LOI_144:167:long_getDifferenceAsLong(long,long):subtrahendRem => ~subtrahendRem
+LOI_145:168:long_getDifferenceAsLong(long,long):difference => ~difference
+LOI_146:170:long_getDifferenceAsLong(long,long):difference => ~difference
+LOI_147:175:long_set(long,int):month => ~month
+LOI_148:175:long_set(long,int):MIN => ~MIN
+LOI_149:175:long_set(long,int):iMax => ~iMax
+LOI_150:176:long_set(long,int):instant => ~instant
+LOI_151:177:long_set(long,int):instant => ~instant
+LOI_152:177:long_set(long,int):thisYear => ~thisYear
+LOI_153:178:long_set(long,int):thisYear => ~thisYear
+LOI_154:178:long_set(long,int):month => ~month
+LOI_155:179:long_set(long,int):thisDom => ~thisDom
+LOI_156:179:long_set(long,int):maxDom => ~maxDom
+LOI_157:180:long_set(long,int):maxDom => ~maxDom
+LOI_158:182:long_set(long,int):thisYear => ~thisYear
+LOI_159:182:long_set(long,int):month => ~month
+LOI_160:182:long_set(long,int):thisDom => ~thisDom
+LOI_161:182:long_set(long,int):instant => ~instant
+LOI_162:192:boolean_isLeap(long):instant => ~instant
+LOI_163:193:boolean_isLeap(long):thisYear => ~thisYear
+LOI_164:194:boolean_isLeap(long):instant => ~instant
+LOI_165:194:boolean_isLeap(long):thisYear => ~thisYear
+LOI_166:194:boolean_isLeap(long):iLeapMonth => ~iLeapMonth
+LOI_167:201:int_getLeapAmount(long):instant => ~instant
+LOI_168:211:int_getMinimumValue():MIN => ~MIN
+LOI_169:216:int_getMaximumValue():iMax => ~iMax
+LOI_170:221:long_roundFloor(long):instant => ~instant
+LOI_171:222:long_roundFloor(long):instant => ~instant
+LOI_172:222:long_roundFloor(long):year => ~year
+LOI_173:223:long_roundFloor(long):year => ~year
+LOI_174:223:long_roundFloor(long):month => ~month
+LOI_175:228:long_remainder(long):instant => ~instant
+LOI_176:228:long_remainder(long):instant => ~instant
+ASRS_1:69:long_add(long,int):yearToUse += 1 => yearToUse /= 1
+ASRS_2:69:long_add(long,int):yearToUse += 1 => yearToUse *= 1
+ASRS_3:69:long_add(long,int):yearToUse += 1 => yearToUse -= 1
+ASRS_4:69:long_add(long,int):yearToUse += 1 => yearToUse %= 1
+ASRS_5:104:long_add(long,long):yearToUse += 1 => yearToUse /= 1
+ASRS_6:104:long_add(long,long):yearToUse += 1 => yearToUse *= 1
+ASRS_7:104:long_add(long,long):yearToUse += 1 => yearToUse -= 1
+ASRS_8:104:long_add(long,long):yearToUse += 1 => yearToUse %= 1

@@ -1,0 +1,47 @@
+			*****	NETWORK CONFIGURATION FILE FOR LINUX USERS	*****
+  
+---------------------------------------------------------------------------------------------------------------------------------
+| This file contains the cunfiguration parameters for each node of the network.							|
+| The specific parameters are the data rate, the packet generation distribution parameters					|
+| and the packet interarrival time paramaters.											|
+|																|		
+| How to use this file:														|
+| For each node write the parameters horizontally separated by tabs or spaces.							|
+| Write the parameters of each node in a separate line.										|
+| Begin writing RIGHT AFTER The line with the parameter names.									|
+| DO NOT WRITE ANYTHING BEFORE. THE LINES YOU WRITE MUST BE EXACTLY EQUAL TO THE NUMBER						|
+| OF NODES. WRITE CLEAN VALUES WITHOUT THE MEASURES (e.g. kb/s, msec, sec).							|
+| WARNING: ANY MISTAKE IN THE CONFIGURATION WILL CAUSE UNEXPECTED ERRORS. 							|
+| CORRECT RATE SPECIFICATION IS ON YOUR OWN RISK.DO NOT ERASE ANY OF THESE LINES.						|
+|																|
+| Parameter explanation:													|
+| Node: the number of the node (e.g. 1, 2, 3...).										|
+| Rate: the node data rate IN BITS PER SECOND.											|
+| PktLength: The mean packet length IN BITS.											|
+| PktLength distr: The distribution of the packet length: c for constant,							|
+| 	u for uniform and e for exponential. WRITE ONLY ONE OF THOSE CHARACTERS IN LOWERCASE. Any other character		|
+| 	will be handled as exponential distribution. More than one characters will cause an error.				|
+| genRate: The mean value of the packet generation rate in packets/s.								|
+| genRate distr: The distribution of the packet generation rate:								|
+| 	c forconstant, u for uniform and e for Poisson. WRITE ONLY ONE OF THOSE CHARACTERS IN LOWERCASE.			|
+| 	Any other character will be handled as Poisson distribution.								|
+| 	More than one characters will cause an error.										|
+| XCoord: The horizontal coordination of the node in meters.									|
+| YCoord: The vertical coordination of the node in meters.									|
+| Coverage: The coverage area of  the node in meters.										|
+| PhyLayer: The type of the physical layer of the node: s for simple, a for 802.11a, b for 802.11b, g for 802.11g 		|
+| 	WRITE ONLY ONE OF THOSE CHARACTERS IN LOWERCASE. Any other character will be handled as 802.11g physical layer.		|
+| AC: Write the node's Access category (0,1,2,3). Write only one of those values or 0 will be assumed.											|
+| reserved: Do not write anything there.																|
+|     An example of three nodes is shown below. Change the parameters of the nodes and add more lines in order to add nodes.	|
+|_______________________________________________________________________________________________________________________________|
+  
+
+Node	Rate		PktLength	pktLngthDistr	genRate	genRateDistr	XCoord	YCoord	Coverage	phyLayer	AC	Reserved
+------------------------------------------------------------------------------------------------------------------------------------------------
+1	54000000	8000		c		80	c		50	5	30		g		0
+2	11000000	6000		e		5	u		400	500	120		b		0	
+3	5500000		7322		e		10	u		210	30	200		b		1	
+4	36000000	5001		u		6	e		120	69	75		g		1	
+5	54000000	8000		u		13	e		3	55	30		g		3	
+		

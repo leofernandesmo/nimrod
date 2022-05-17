@@ -1,0 +1,731 @@
+AORB_1:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength + 32 => inputLineLength * 32
+AORB_2:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength + 32 => inputLineLength / 32
+AORB_3:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength + 32 => inputLineLength % 32
+AORB_4:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength + 32 => inputLineLength - 32
+AORB_5:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength - offset => inputLineLength * offset
+AORB_6:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength - offset => inputLineLength / offset
+AORB_7:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength - offset => inputLineLength % offset
+AORB_8:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength - offset => inputLineLength + offset
+AORB_9:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength * offset
+AORB_10:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength / offset
+AORB_11:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength % offset
+AORB_12:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength - offset
+AORB_13:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt * 1
+AORB_14:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt / 1
+AORB_15:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt % 1
+AORB_16:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt - 1
+AORB_17:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength * offset
+AORB_18:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength / offset
+AORB_19:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength % offset
+AORB_20:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength - offset
+AORB_21:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength * offset
+AORB_22:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength / offset
+AORB_23:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength % offset
+AORB_24:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength + offset => wrapLength - offset
+AORB_25:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt * 1
+AORB_26:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt / 1
+AORB_27:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt % 1
+AORB_28:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt + 1 => spaceToWrapAt - 1
+AORB_29:192:java.lang.String_initials(java.lang.String,char):strLen / 2 => strLen * 2
+AORB_30:192:java.lang.String_initials(java.lang.String,char):strLen / 2 => strLen % 2
+AORB_31:192:java.lang.String_initials(java.lang.String,char):strLen / 2 => strLen + 2
+AORB_32:192:java.lang.String_initials(java.lang.String,char):strLen / 2 => strLen - 2
+AORB_33:192:java.lang.String_initials(java.lang.String,char):strLen / 2 + 1 => strLen / 2 * 1
+AORB_34:192:java.lang.String_initials(java.lang.String,char):strLen / 2 + 1 => strLen / 2 / 1
+AORB_35:192:java.lang.String_initials(java.lang.String,char):strLen / 2 + 1 => strLen / 2 % 1
+AORB_36:192:java.lang.String_initials(java.lang.String,char):strLen / 2 + 1 => strLen / 2 - 1
+AORS_1:36:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset++ => offset--
+AORS_2:80:java.lang.String_capitalize(java.lang.String,char):i++ => i--
+AORS_3:126:java.lang.String_uncapitalize(java.lang.String,char):i++ => i--
+AORS_4:153:java.lang.String_swapCase(java.lang.String):i++ => i--
+AORS_5:195:java.lang.String_initials(java.lang.String,char):i++ => i--
+AORS_6:214:boolean_isDelimiter(char,char):i++ => i--
+AODU_1:73:java.lang.String_capitalize(java.lang.String,char):-1 => 1
+AODU_2:104:java.lang.String_capitalizeFully(java.lang.String,char):-1 => 1
+AODU_3:119:java.lang.String_uncapitalize(java.lang.String,char):-1 => 1
+AODS_1:36:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset++ => offset
+AODS_2:201:java.lang.String_initials(java.lang.String,char):count++ => count
+AOIU_1:17:java.lang.String_wrap(java.lang.String,int):wrapLength => -wrapLength
+AOIU_2:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => -inputLineLength
+AOIU_3:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => -wrapLength
+AOIU_4:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => -offset
+AOIU_5:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => -spaceToWrapAt
+AOIU_6:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => -spaceToWrapAt
+AOIU_7:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => -offset
+AOIU_8:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => -wrapLength
+AOIU_9:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => -wrapLength
+AOIU_10:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => -wrapLength
+AOIU_11:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => -offset
+AOIU_12:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => -spaceToWrapAt
+AOIU_13:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => -spaceToWrapAt
+AOIU_14:56:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => -offset
+AOIU_15:57:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => -inputLineLength
+AOIU_16:62:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => -offset
+AOIU_17:73:java.lang.String_capitalize(java.lang.String,char):delimiters.length => -delimiters.length
+AOIU_18:78:java.lang.String_capitalize(java.lang.String,char):strLen => -strLen
+AOIU_19:81:java.lang.String_capitalize(java.lang.String,char):i => -i
+AOIU_20:82:java.lang.String_capitalize(java.lang.String,char):ch => -ch
+AOIU_21:83:java.lang.String_capitalize(java.lang.String,char):ch => -ch
+AOIU_22:87:java.lang.String_capitalize(java.lang.String,char):ch => -ch
+AOIU_23:90:java.lang.String_capitalize(java.lang.String,char):ch => -ch
+AOIU_24:104:java.lang.String_capitalizeFully(java.lang.String,char):delimiters.length => -delimiters.length
+AOIU_25:119:java.lang.String_uncapitalize(java.lang.String,char):delimiters.length => -delimiters.length
+AOIU_26:124:java.lang.String_uncapitalize(java.lang.String,char):strLen => -strLen
+AOIU_27:127:java.lang.String_uncapitalize(java.lang.String,char):i => -i
+AOIU_28:128:java.lang.String_uncapitalize(java.lang.String,char):ch => -ch
+AOIU_29:129:java.lang.String_uncapitalize(java.lang.String,char):ch => -ch
+AOIU_30:133:java.lang.String_uncapitalize(java.lang.String,char):ch => -ch
+AOIU_31:136:java.lang.String_uncapitalize(java.lang.String,char):ch => -ch
+AOIU_32:149:java.lang.String_swapCase(java.lang.String):strLen => -strLen
+AOIU_33:154:java.lang.String_swapCase(java.lang.String):i => -i
+AOIU_34:155:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_35:156:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_36:158:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_37:159:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_38:161:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_39:163:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_40:165:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_41:168:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_42:172:java.lang.String_swapCase(java.lang.String):tmp => -tmp
+AOIU_43:173:java.lang.String_swapCase(java.lang.String):ch => -ch
+AOIU_44:192:java.lang.String_initials(java.lang.String,char):strLen => -strLen
+AOIU_45:196:java.lang.String_initials(java.lang.String,char):i => -i
+AOIU_46:197:java.lang.String_initials(java.lang.String,char):ch => -ch
+AOIU_47:201:java.lang.String_initials(java.lang.String,char):ch => -ch
+AOIU_48:206:java.lang.String_initials(java.lang.String,char):count => -count
+AOIU_49:212:boolean_isDelimiter(char,char):ch => -ch
+AOIU_50:237:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => -lower
+AOIU_51:240:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => -lower
+AOIU_52:242:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => -upper
+AOIU_53:248:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => -upper
+AOIU_54:251:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => -index
+AOIS_1:17:java.lang.String_wrap(java.lang.String,int):wrapLength => wrapLength++
+AOIS_2:17:java.lang.String_wrap(java.lang.String,int):wrapLength => wrapLength--
+AOIS_3:28:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ++wrapLength
+AOIS_4:28:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => --wrapLength
+AOIS_5:28:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength++
+AOIS_6:28:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength--
+AOIS_7:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => ++inputLineLength
+AOIS_8:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => --inputLineLength
+AOIS_9:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => inputLineLength++
+AOIS_10:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => inputLineLength--
+AOIS_11:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => ++inputLineLength
+AOIS_12:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => --inputLineLength
+AOIS_13:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => inputLineLength++
+AOIS_14:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => inputLineLength--
+AOIS_15:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ++offset
+AOIS_16:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => --offset
+AOIS_17:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_18:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_19:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength++
+AOIS_20:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength--
+AOIS_21:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ++offset
+AOIS_22:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => --offset
+AOIS_23:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_24:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_25:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ++wrapLength
+AOIS_26:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => --wrapLength
+AOIS_27:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength++
+AOIS_28:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength--
+AOIS_29:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ++offset
+AOIS_30:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => --offset
+AOIS_31:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_32:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_33:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ++spaceToWrapAt
+AOIS_34:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => --spaceToWrapAt
+AOIS_35:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt++
+AOIS_36:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt--
+AOIS_37:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ++offset
+AOIS_38:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => --offset
+AOIS_39:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_40:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_41:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_42:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_43:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt++
+AOIS_44:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt--
+AOIS_45:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ++spaceToWrapAt
+AOIS_46:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => --spaceToWrapAt
+AOIS_47:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt++
+AOIS_48:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt--
+AOIS_49:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_50:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_51:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ++wrapLength
+AOIS_52:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => --wrapLength
+AOIS_53:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength++
+AOIS_54:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength--
+AOIS_55:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ++offset
+AOIS_56:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => --offset
+AOIS_57:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_58:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_59:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ++wrapLength
+AOIS_60:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => --wrapLength
+AOIS_61:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength++
+AOIS_62:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength--
+AOIS_63:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ++wrapLength
+AOIS_64:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => --wrapLength
+AOIS_65:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength++
+AOIS_66:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => wrapLength--
+AOIS_67:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ++offset
+AOIS_68:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => --offset
+AOIS_69:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_70:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_71:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ++spaceToWrapAt
+AOIS_72:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => --spaceToWrapAt
+AOIS_73:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt++
+AOIS_74:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt--
+AOIS_75:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_76:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_77:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt++
+AOIS_78:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt--
+AOIS_79:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ++spaceToWrapAt
+AOIS_80:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => --spaceToWrapAt
+AOIS_81:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt++
+AOIS_82:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => spaceToWrapAt--
+AOIS_83:56:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_84:56:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_85:57:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => ++inputLineLength
+AOIS_86:57:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => --inputLineLength
+AOIS_87:57:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => inputLineLength++
+AOIS_88:57:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => inputLineLength--
+AOIS_89:62:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset++
+AOIS_90:62:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => offset--
+AOIS_91:73:java.lang.String_capitalize(java.lang.String,char):delimiters.length => delimiters.length++
+AOIS_92:73:java.lang.String_capitalize(java.lang.String,char):delimiters.length => delimiters.length--
+AOIS_93:74:java.lang.String_capitalize(java.lang.String,char):delimLen => ++delimLen
+AOIS_94:74:java.lang.String_capitalize(java.lang.String,char):delimLen => --delimLen
+AOIS_95:74:java.lang.String_capitalize(java.lang.String,char):delimLen => delimLen++
+AOIS_96:74:java.lang.String_capitalize(java.lang.String,char):delimLen => delimLen--
+AOIS_97:78:java.lang.String_capitalize(java.lang.String,char):strLen => strLen++
+AOIS_98:78:java.lang.String_capitalize(java.lang.String,char):strLen => strLen--
+AOIS_99:80:java.lang.String_capitalize(java.lang.String,char):i => ++i
+AOIS_100:80:java.lang.String_capitalize(java.lang.String,char):i => --i
+AOIS_101:80:java.lang.String_capitalize(java.lang.String,char):i => i++
+AOIS_102:80:java.lang.String_capitalize(java.lang.String,char):i => i--
+AOIS_103:80:java.lang.String_capitalize(java.lang.String,char):strLen => ++strLen
+AOIS_104:80:java.lang.String_capitalize(java.lang.String,char):strLen => --strLen
+AOIS_105:80:java.lang.String_capitalize(java.lang.String,char):strLen => strLen++
+AOIS_106:80:java.lang.String_capitalize(java.lang.String,char):strLen => strLen--
+AOIS_107:81:java.lang.String_capitalize(java.lang.String,char):i => i++
+AOIS_108:81:java.lang.String_capitalize(java.lang.String,char):i => i--
+AOIS_109:82:java.lang.String_capitalize(java.lang.String,char):ch => ch++
+AOIS_110:82:java.lang.String_capitalize(java.lang.String,char):ch => ch--
+AOIS_111:83:java.lang.String_capitalize(java.lang.String,char):ch => ch++
+AOIS_112:83:java.lang.String_capitalize(java.lang.String,char):ch => ch--
+AOIS_113:87:java.lang.String_capitalize(java.lang.String,char):ch => ch++
+AOIS_114:87:java.lang.String_capitalize(java.lang.String,char):ch => ch--
+AOIS_115:90:java.lang.String_capitalize(java.lang.String,char):ch => ch++
+AOIS_116:90:java.lang.String_capitalize(java.lang.String,char):ch => ch--
+AOIS_117:104:java.lang.String_capitalizeFully(java.lang.String,char):delimiters.length => delimiters.length++
+AOIS_118:104:java.lang.String_capitalizeFully(java.lang.String,char):delimiters.length => delimiters.length--
+AOIS_119:105:java.lang.String_capitalizeFully(java.lang.String,char):delimLen => ++delimLen
+AOIS_120:105:java.lang.String_capitalizeFully(java.lang.String,char):delimLen => --delimLen
+AOIS_121:105:java.lang.String_capitalizeFully(java.lang.String,char):delimLen => delimLen++
+AOIS_122:105:java.lang.String_capitalizeFully(java.lang.String,char):delimLen => delimLen--
+AOIS_123:119:java.lang.String_uncapitalize(java.lang.String,char):delimiters.length => delimiters.length++
+AOIS_124:119:java.lang.String_uncapitalize(java.lang.String,char):delimiters.length => delimiters.length--
+AOIS_125:120:java.lang.String_uncapitalize(java.lang.String,char):delimLen => ++delimLen
+AOIS_126:120:java.lang.String_uncapitalize(java.lang.String,char):delimLen => --delimLen
+AOIS_127:120:java.lang.String_uncapitalize(java.lang.String,char):delimLen => delimLen++
+AOIS_128:120:java.lang.String_uncapitalize(java.lang.String,char):delimLen => delimLen--
+AOIS_129:124:java.lang.String_uncapitalize(java.lang.String,char):strLen => strLen++
+AOIS_130:124:java.lang.String_uncapitalize(java.lang.String,char):strLen => strLen--
+AOIS_131:126:java.lang.String_uncapitalize(java.lang.String,char):i => ++i
+AOIS_132:126:java.lang.String_uncapitalize(java.lang.String,char):i => --i
+AOIS_133:126:java.lang.String_uncapitalize(java.lang.String,char):i => i++
+AOIS_134:126:java.lang.String_uncapitalize(java.lang.String,char):i => i--
+AOIS_135:126:java.lang.String_uncapitalize(java.lang.String,char):strLen => ++strLen
+AOIS_136:126:java.lang.String_uncapitalize(java.lang.String,char):strLen => --strLen
+AOIS_137:126:java.lang.String_uncapitalize(java.lang.String,char):strLen => strLen++
+AOIS_138:126:java.lang.String_uncapitalize(java.lang.String,char):strLen => strLen--
+AOIS_139:127:java.lang.String_uncapitalize(java.lang.String,char):i => i++
+AOIS_140:127:java.lang.String_uncapitalize(java.lang.String,char):i => i--
+AOIS_141:128:java.lang.String_uncapitalize(java.lang.String,char):ch => ch++
+AOIS_142:128:java.lang.String_uncapitalize(java.lang.String,char):ch => ch--
+AOIS_143:129:java.lang.String_uncapitalize(java.lang.String,char):ch => ch++
+AOIS_144:129:java.lang.String_uncapitalize(java.lang.String,char):ch => ch--
+AOIS_145:133:java.lang.String_uncapitalize(java.lang.String,char):ch => ch++
+AOIS_146:133:java.lang.String_uncapitalize(java.lang.String,char):ch => ch--
+AOIS_147:136:java.lang.String_uncapitalize(java.lang.String,char):ch => ch++
+AOIS_148:136:java.lang.String_uncapitalize(java.lang.String,char):ch => ch--
+AOIS_149:149:java.lang.String_swapCase(java.lang.String):strLen => strLen++
+AOIS_150:149:java.lang.String_swapCase(java.lang.String):strLen => strLen--
+AOIS_151:153:java.lang.String_swapCase(java.lang.String):i => ++i
+AOIS_152:153:java.lang.String_swapCase(java.lang.String):i => --i
+AOIS_153:153:java.lang.String_swapCase(java.lang.String):i => i++
+AOIS_154:153:java.lang.String_swapCase(java.lang.String):i => i--
+AOIS_155:153:java.lang.String_swapCase(java.lang.String):strLen => ++strLen
+AOIS_156:153:java.lang.String_swapCase(java.lang.String):strLen => --strLen
+AOIS_157:153:java.lang.String_swapCase(java.lang.String):strLen => strLen++
+AOIS_158:153:java.lang.String_swapCase(java.lang.String):strLen => strLen--
+AOIS_159:154:java.lang.String_swapCase(java.lang.String):i => ++i
+AOIS_160:154:java.lang.String_swapCase(java.lang.String):i => --i
+AOIS_161:154:java.lang.String_swapCase(java.lang.String):i => i++
+AOIS_162:154:java.lang.String_swapCase(java.lang.String):i => i--
+AOIS_163:155:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_164:155:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_165:156:java.lang.String_swapCase(java.lang.String):ch => ++ch
+AOIS_166:156:java.lang.String_swapCase(java.lang.String):ch => --ch
+AOIS_167:156:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_168:156:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_169:158:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_170:158:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_171:159:java.lang.String_swapCase(java.lang.String):ch => ++ch
+AOIS_172:159:java.lang.String_swapCase(java.lang.String):ch => --ch
+AOIS_173:159:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_174:159:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_175:161:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_176:161:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_177:163:java.lang.String_swapCase(java.lang.String):ch => ++ch
+AOIS_178:163:java.lang.String_swapCase(java.lang.String):ch => --ch
+AOIS_179:163:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_180:163:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_181:165:java.lang.String_swapCase(java.lang.String):ch => ++ch
+AOIS_182:165:java.lang.String_swapCase(java.lang.String):ch => --ch
+AOIS_183:165:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_184:165:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_185:168:java.lang.String_swapCase(java.lang.String):ch => ++ch
+AOIS_186:168:java.lang.String_swapCase(java.lang.String):ch => --ch
+AOIS_187:168:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_188:168:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_189:172:java.lang.String_swapCase(java.lang.String):tmp => tmp++
+AOIS_190:172:java.lang.String_swapCase(java.lang.String):tmp => tmp--
+AOIS_191:173:java.lang.String_swapCase(java.lang.String):ch => ++ch
+AOIS_192:173:java.lang.String_swapCase(java.lang.String):ch => --ch
+AOIS_193:173:java.lang.String_swapCase(java.lang.String):ch => ch++
+AOIS_194:173:java.lang.String_swapCase(java.lang.String):ch => ch--
+AOIS_195:188:java.lang.String_initials(java.lang.String,char):delimiters.length => ++delimiters.length
+AOIS_196:188:java.lang.String_initials(java.lang.String,char):delimiters.length => --delimiters.length
+AOIS_197:188:java.lang.String_initials(java.lang.String,char):delimiters.length => delimiters.length++
+AOIS_198:188:java.lang.String_initials(java.lang.String,char):delimiters.length => delimiters.length--
+AOIS_199:192:java.lang.String_initials(java.lang.String,char):strLen => ++strLen
+AOIS_200:192:java.lang.String_initials(java.lang.String,char):strLen => --strLen
+AOIS_201:192:java.lang.String_initials(java.lang.String,char):strLen => strLen++
+AOIS_202:192:java.lang.String_initials(java.lang.String,char):strLen => strLen--
+AOIS_203:195:java.lang.String_initials(java.lang.String,char):i => ++i
+AOIS_204:195:java.lang.String_initials(java.lang.String,char):i => --i
+AOIS_205:195:java.lang.String_initials(java.lang.String,char):i => i++
+AOIS_206:195:java.lang.String_initials(java.lang.String,char):i => i--
+AOIS_207:195:java.lang.String_initials(java.lang.String,char):strLen => ++strLen
+AOIS_208:195:java.lang.String_initials(java.lang.String,char):strLen => --strLen
+AOIS_209:195:java.lang.String_initials(java.lang.String,char):strLen => strLen++
+AOIS_210:195:java.lang.String_initials(java.lang.String,char):strLen => strLen--
+AOIS_211:196:java.lang.String_initials(java.lang.String,char):i => i++
+AOIS_212:196:java.lang.String_initials(java.lang.String,char):i => i--
+AOIS_213:197:java.lang.String_initials(java.lang.String,char):ch => ch++
+AOIS_214:197:java.lang.String_initials(java.lang.String,char):ch => ch--
+AOIS_215:201:java.lang.String_initials(java.lang.String,char):ch => ++ch
+AOIS_216:201:java.lang.String_initials(java.lang.String,char):ch => --ch
+AOIS_217:201:java.lang.String_initials(java.lang.String,char):ch => ch++
+AOIS_218:201:java.lang.String_initials(java.lang.String,char):ch => ch--
+AOIS_219:206:java.lang.String_initials(java.lang.String,char):count => count++
+AOIS_220:206:java.lang.String_initials(java.lang.String,char):count => count--
+AOIS_221:212:boolean_isDelimiter(char,char):ch => ch++
+AOIS_222:212:boolean_isDelimiter(char,char):ch => ch--
+AOIS_223:214:boolean_isDelimiter(char,char):i => ++i
+AOIS_224:214:boolean_isDelimiter(char,char):i => --i
+AOIS_225:214:boolean_isDelimiter(char,char):i => i++
+AOIS_226:214:boolean_isDelimiter(char,char):i => i--
+AOIS_227:214:boolean_isDelimiter(char,char):isize => ++isize
+AOIS_228:214:boolean_isDelimiter(char,char):isize => --isize
+AOIS_229:214:boolean_isDelimiter(char,char):isize => isize++
+AOIS_230:214:boolean_isDelimiter(char,char):isize => isize--
+AOIS_231:215:boolean_isDelimiter(char,char):ch => ++ch
+AOIS_232:215:boolean_isDelimiter(char,char):ch => --ch
+AOIS_233:215:boolean_isDelimiter(char,char):ch => ch++
+AOIS_234:215:boolean_isDelimiter(char,char):ch => ch--
+AOIS_235:215:boolean_isDelimiter(char,char):i => ++i
+AOIS_236:215:boolean_isDelimiter(char,char):i => --i
+AOIS_237:215:boolean_isDelimiter(char,char):i => i++
+AOIS_238:215:boolean_isDelimiter(char,char):i => i--
+AOIS_239:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => ++lower
+AOIS_240:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => --lower
+AOIS_241:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower++
+AOIS_242:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower--
+AOIS_243:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ++upper
+AOIS_244:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => --upper
+AOIS_245:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper++
+AOIS_246:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper--
+AOIS_247:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ++upper
+AOIS_248:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => --upper
+AOIS_249:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper++
+AOIS_250:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper--
+AOIS_251:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ++upper
+AOIS_252:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => --upper
+AOIS_253:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper++
+AOIS_254:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper--
+AOIS_255:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => ++lower
+AOIS_256:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => --lower
+AOIS_257:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower++
+AOIS_258:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower--
+AOIS_259:237:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => ++lower
+AOIS_260:237:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => --lower
+AOIS_261:237:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower++
+AOIS_262:237:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower--
+AOIS_263:240:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower++
+AOIS_264:240:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => lower--
+AOIS_265:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => ++index
+AOIS_266:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => --index
+AOIS_267:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => index++
+AOIS_268:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => index--
+AOIS_269:242:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper++
+AOIS_270:242:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper--
+AOIS_271:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ++upper
+AOIS_272:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => --upper
+AOIS_273:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper++
+AOIS_274:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper--
+AOIS_275:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => ++index
+AOIS_276:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => --index
+AOIS_277:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => index++
+AOIS_278:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => index--
+AOIS_279:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ++upper
+AOIS_280:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => --upper
+AOIS_281:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper++
+AOIS_282:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper--
+AOIS_283:248:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper++
+AOIS_284:248:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => upper--
+AOIS_285:251:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => index++
+AOIS_286:251:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => index--
+ROR_1:22:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str == null  =>   str != null
+ROR_2:25:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): newLineStr == null  =>   newLineStr != null
+ROR_3:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>   inputLineLength - offset >= wrapLength
+ROR_4:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>   inputLineLength - offset < wrapLength
+ROR_5:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>   inputLineLength - offset <= wrapLength
+ROR_6:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>   inputLineLength - offset == wrapLength
+ROR_7:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>   inputLineLength - offset != wrapLength
+ROR_8:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>   true
+ROR_9:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>   false
+ROR_10:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>   str.charAt( offset ) > ' '
+ROR_11:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>   str.charAt( offset ) >= ' '
+ROR_12:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>   str.charAt( offset ) < ' '
+ROR_13:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>   str.charAt( offset ) <= ' '
+ROR_14:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>   str.charAt( offset ) != ' '
+ROR_15:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>   true
+ROR_16:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>   false
+ROR_17:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>   spaceToWrapAt > offset
+ROR_18:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>   spaceToWrapAt < offset
+ROR_19:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>   spaceToWrapAt <= offset
+ROR_20:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>   spaceToWrapAt == offset
+ROR_21:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>   spaceToWrapAt != offset
+ROR_22:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>   true
+ROR_23:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>   false
+ROR_24:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>   spaceToWrapAt > 0
+ROR_25:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>   spaceToWrapAt < 0
+ROR_26:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>   spaceToWrapAt <= 0
+ROR_27:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>   spaceToWrapAt == 0
+ROR_28:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>   spaceToWrapAt != 0
+ROR_29:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>   true
+ROR_30:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>   false
+ROR_31:73:java.lang.String_capitalize(java.lang.String,char): delimiters == null  =>   delimiters != null
+ROR_32:74:java.lang.String_capitalize(java.lang.String,char): str == null  =>   str != null
+ROR_33:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>   str.length() > 0
+ROR_34:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>   str.length() >= 0
+ROR_35:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>   str.length() < 0
+ROR_36:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>   str.length() <= 0
+ROR_37:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>   str.length() != 0
+ROR_38:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>   true
+ROR_39:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>   false
+ROR_40:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>   delimLen > 0
+ROR_41:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>   delimLen >= 0
+ROR_42:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>   delimLen < 0
+ROR_43:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>   delimLen <= 0
+ROR_44:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>   delimLen != 0
+ROR_45:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>   true
+ROR_46:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>   false
+ROR_47:104:java.lang.String_capitalizeFully(java.lang.String,char): delimiters == null  =>   delimiters != null
+ROR_48:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null  =>   str != null
+ROR_49:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>   str.length() > 0
+ROR_50:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>   str.length() >= 0
+ROR_51:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>   str.length() < 0
+ROR_52:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>   str.length() <= 0
+ROR_53:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>   str.length() != 0
+ROR_54:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>   true
+ROR_55:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>   false
+ROR_56:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>   delimLen > 0
+ROR_57:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>   delimLen >= 0
+ROR_58:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>   delimLen < 0
+ROR_59:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>   delimLen <= 0
+ROR_60:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>   delimLen != 0
+ROR_61:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>   true
+ROR_62:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>   false
+ROR_63:119:java.lang.String_uncapitalize(java.lang.String,char): delimiters == null  =>   delimiters != null
+ROR_64:120:java.lang.String_uncapitalize(java.lang.String,char): str == null  =>   str != null
+ROR_65:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>   str.length() > 0
+ROR_66:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>   str.length() >= 0
+ROR_67:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>   str.length() < 0
+ROR_68:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>   str.length() <= 0
+ROR_69:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>   str.length() != 0
+ROR_70:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>   true
+ROR_71:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>   false
+ROR_72:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>   delimLen > 0
+ROR_73:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>   delimLen >= 0
+ROR_74:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>   delimLen < 0
+ROR_75:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>   delimLen <= 0
+ROR_76:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>   delimLen != 0
+ROR_77:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>   true
+ROR_78:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>   false
+ROR_79:146:java.lang.String_swapCase(java.lang.String): str == null  =>   str != null
+ROR_80:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>   (strLen = str.length()) > 0
+ROR_81:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>   (strLen = str.length()) >= 0
+ROR_82:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>   (strLen = str.length()) < 0
+ROR_83:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>   (strLen = str.length()) <= 0
+ROR_84:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>   (strLen = str.length()) != 0
+ROR_85:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>   true
+ROR_86:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>   false
+ROR_87:185:java.lang.String_initials(java.lang.String,char): str == null  =>   str != null
+ROR_88:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>   str.length() > 0
+ROR_89:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>   str.length() >= 0
+ROR_90:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>   str.length() < 0
+ROR_91:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>   str.length() <= 0
+ROR_92:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>   str.length() != 0
+ROR_93:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>   true
+ROR_94:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>   false
+ROR_95:188:java.lang.String_initials(java.lang.String,char): delimiters != null  =>   delimiters == null
+ROR_96:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>   delimiters.length > 0
+ROR_97:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>   delimiters.length >= 0
+ROR_98:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>   delimiters.length < 0
+ROR_99:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>   delimiters.length <= 0
+ROR_100:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>   delimiters.length != 0
+ROR_101:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>   true
+ROR_102:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>   false
+ROR_103:211:boolean_isDelimiter(char,char): delimiters == null  =>   delimiters != null
+ROR_104:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>   ch > delimiters[i]
+ROR_105:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>   ch >= delimiters[i]
+ROR_106:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>   ch < delimiters[i]
+ROR_107:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>   ch <= delimiters[i]
+ROR_108:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>   ch != delimiters[i]
+ROR_109:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>   true
+ROR_110:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>   false
+ROR_111:224:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str == null  =>   str != null
+ROR_112:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>   str.length() > 0
+ROR_113:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>   str.length() >= 0
+ROR_114:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>   str.length() < 0
+ROR_115:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>   str.length() <= 0
+ROR_116:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>   str.length() != 0
+ROR_117:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>   true
+ROR_118:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>   false
+ROR_119:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>   lower >= str.length()
+ROR_120:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>   lower < str.length()
+ROR_121:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>   lower <= str.length()
+ROR_122:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>   lower == str.length()
+ROR_123:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>   lower != str.length()
+ROR_124:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>   true
+ROR_125:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>   false
+ROR_126:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>   upper > -1
+ROR_127:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>   upper >= -1
+ROR_128:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>   upper < -1
+ROR_129:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>   upper <= -1
+ROR_130:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>   upper != -1
+ROR_131:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>   true
+ROR_132:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>   false
+ROR_133:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>   upper >= str.length()
+ROR_134:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>   upper < str.length()
+ROR_135:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>   upper <= str.length()
+ROR_136:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>   upper == str.length()
+ROR_137:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>   upper != str.length()
+ROR_138:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>   true
+ROR_139:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>   false
+ROR_140:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>   index > -1
+ROR_141:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>   index >= -1
+ROR_142:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>   index < -1
+ROR_143:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>   index <= -1
+ROR_144:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>   index != -1
+ROR_145:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>   true
+ROR_146:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>   false
+ROR_147:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>   upper > str.length()
+ROR_148:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>   upper >= str.length()
+ROR_149:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>   upper < str.length()
+ROR_150:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>   upper <= str.length()
+ROR_151:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>   upper == str.length()
+ROR_152:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>   true
+ROR_153:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>   false
+ROR_154:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>   index >= upper
+ROR_155:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>   index < upper
+ROR_156:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>   index <= upper
+ROR_157:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>   index == upper
+ROR_158:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>   index != upper
+ROR_159:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>   true
+ROR_160:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>   false
+COR_1:74:java.lang.String_capitalize(java.lang.String,char): str == null || str.length() == 0  =>   str == null && str.length() == 0
+COR_2:74:java.lang.String_capitalize(java.lang.String,char): str == null || str.length() == 0  =>   str == null ^ str.length() == 0
+COR_3:74:java.lang.String_capitalize(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>   (str == null || str.length() == 0) && delimLen == 0
+COR_4:74:java.lang.String_capitalize(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>   (str == null || str.length() == 0) ^ delimLen == 0
+COR_5:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null || str.length() == 0  =>   str == null && str.length() == 0
+COR_6:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null || str.length() == 0  =>   str == null ^ str.length() == 0
+COR_7:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>   (str == null || str.length() == 0) && delimLen == 0
+COR_8:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>   (str == null || str.length() == 0) ^ delimLen == 0
+COR_9:120:java.lang.String_uncapitalize(java.lang.String,char): str == null || str.length() == 0  =>   str == null && str.length() == 0
+COR_10:120:java.lang.String_uncapitalize(java.lang.String,char): str == null || str.length() == 0  =>   str == null ^ str.length() == 0
+COR_11:120:java.lang.String_uncapitalize(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>   (str == null || str.length() == 0) && delimLen == 0
+COR_12:120:java.lang.String_uncapitalize(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>   (str == null || str.length() == 0) ^ delimLen == 0
+COR_13:146:java.lang.String_swapCase(java.lang.String): str == null || (strLen = str.length()) == 0  =>   str == null && (strLen = str.length()) == 0
+COR_14:146:java.lang.String_swapCase(java.lang.String): str == null || (strLen = str.length()) == 0  =>   str == null ^ (strLen = str.length()) == 0
+COR_15:185:java.lang.String_initials(java.lang.String,char): str == null || str.length() == 0  =>   str == null && str.length() == 0
+COR_16:185:java.lang.String_initials(java.lang.String,char): str == null || str.length() == 0  =>   str == null ^ str.length() == 0
+COR_17:188:java.lang.String_initials(java.lang.String,char): delimiters != null && delimiters.length == 0  =>   delimiters != null || delimiters.length == 0
+COR_18:188:java.lang.String_initials(java.lang.String,char): delimiters != null && delimiters.length == 0  =>   delimiters != null ^ delimiters.length == 0
+COR_19:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1 || upper > str.length()  =>   upper == -1 && upper > str.length()
+COR_20:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1 || upper > str.length()  =>   upper == -1 ^ upper > str.length()
+COI_1:22:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str == null  =>  !(str == null)
+COI_2:25:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): newLineStr == null  =>  !(newLineStr == null)
+COI_3:28:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): wrapLength < 1  =>  !(wrapLength < 1)
+COI_4:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): inputLineLength - offset > wrapLength  =>  !(inputLineLength - offset > wrapLength)
+COI_5:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): str.charAt( offset ) == ' '  =>  !(str.charAt( offset ) == ' ')
+COI_6:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= offset  =>  !(spaceToWrapAt >= offset)
+COI_7:45:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): wrapLongWords  =>  !wrapLongWords
+COI_8:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean): spaceToWrapAt >= 0  =>  !(spaceToWrapAt >= 0)
+COI_9:73:java.lang.String_capitalize(java.lang.String,char): delimiters == null  =>  !(delimiters == null)
+COI_10:74:java.lang.String_capitalize(java.lang.String,char): str == null  =>  !(str == null)
+COI_11:74:java.lang.String_capitalize(java.lang.String,char): str.length() == 0  =>  !(str.length() == 0)
+COI_12:74:java.lang.String_capitalize(java.lang.String,char): str == null || str.length() == 0  =>  !(str == null || str.length() == 0)
+COI_13:74:java.lang.String_capitalize(java.lang.String,char): delimLen == 0  =>  !(delimLen == 0)
+COI_14:74:java.lang.String_capitalize(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>  !(str == null || str.length() == 0 || delimLen == 0)
+COI_15:80:java.lang.String_capitalize(java.lang.String,char): i < strLen  =>  !(i < strLen)
+COI_16:84:java.lang.String_capitalize(java.lang.String,char): capitalizeNext  =>  !capitalizeNext
+COI_17:86:java.lang.String_capitalize(java.lang.String,char): capitalizeNext  =>  !capitalizeNext
+COI_18:88:java.lang.String_capitalize(java.lang.String,char): capitalizeNext  =>  !capitalizeNext
+COI_19:104:java.lang.String_capitalizeFully(java.lang.String,char): delimiters == null  =>  !(delimiters == null)
+COI_20:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null  =>  !(str == null)
+COI_21:105:java.lang.String_capitalizeFully(java.lang.String,char): str.length() == 0  =>  !(str.length() == 0)
+COI_22:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null || str.length() == 0  =>  !(str == null || str.length() == 0)
+COI_23:105:java.lang.String_capitalizeFully(java.lang.String,char): delimLen == 0  =>  !(delimLen == 0)
+COI_24:105:java.lang.String_capitalizeFully(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>  !(str == null || str.length() == 0 || delimLen == 0)
+COI_25:119:java.lang.String_uncapitalize(java.lang.String,char): delimiters == null  =>  !(delimiters == null)
+COI_26:120:java.lang.String_uncapitalize(java.lang.String,char): str == null  =>  !(str == null)
+COI_27:120:java.lang.String_uncapitalize(java.lang.String,char): str.length() == 0  =>  !(str.length() == 0)
+COI_28:120:java.lang.String_uncapitalize(java.lang.String,char): str == null || str.length() == 0  =>  !(str == null || str.length() == 0)
+COI_29:120:java.lang.String_uncapitalize(java.lang.String,char): delimLen == 0  =>  !(delimLen == 0)
+COI_30:120:java.lang.String_uncapitalize(java.lang.String,char): str == null || str.length() == 0 || delimLen == 0  =>  !(str == null || str.length() == 0 || delimLen == 0)
+COI_31:126:java.lang.String_uncapitalize(java.lang.String,char): i < strLen  =>  !(i < strLen)
+COI_32:130:java.lang.String_uncapitalize(java.lang.String,char): uncapitalizeNext  =>  !uncapitalizeNext
+COI_33:132:java.lang.String_uncapitalize(java.lang.String,char): uncapitalizeNext  =>  !uncapitalizeNext
+COI_34:134:java.lang.String_uncapitalize(java.lang.String,char): uncapitalizeNext  =>  !uncapitalizeNext
+COI_35:146:java.lang.String_swapCase(java.lang.String): str == null  =>  !(str == null)
+COI_36:146:java.lang.String_swapCase(java.lang.String): (strLen = str.length()) == 0  =>  !((strLen = str.length()) == 0)
+COI_37:146:java.lang.String_swapCase(java.lang.String): str == null || (strLen = str.length()) == 0  =>  !(str == null || (strLen = str.length()) == 0)
+COI_38:153:java.lang.String_swapCase(java.lang.String): i < strLen  =>  !(i < strLen)
+COI_39:162:java.lang.String_swapCase(java.lang.String): whitespace  =>  !whitespace
+COI_40:173:java.lang.String_swapCase(java.lang.String): whitespace  =>  !whitespace
+COI_41:185:java.lang.String_initials(java.lang.String,char): str == null  =>  !(str == null)
+COI_42:185:java.lang.String_initials(java.lang.String,char): str.length() == 0  =>  !(str.length() == 0)
+COI_43:185:java.lang.String_initials(java.lang.String,char): str == null || str.length() == 0  =>  !(str == null || str.length() == 0)
+COI_44:188:java.lang.String_initials(java.lang.String,char): delimiters != null  =>  !(delimiters != null)
+COI_45:188:java.lang.String_initials(java.lang.String,char): delimiters.length == 0  =>  !(delimiters.length == 0)
+COI_46:188:java.lang.String_initials(java.lang.String,char): delimiters != null && delimiters.length == 0  =>  !(delimiters != null && delimiters.length == 0)
+COI_47:195:java.lang.String_initials(java.lang.String,char): i < strLen  =>  !(i < strLen)
+COI_48:198:java.lang.String_initials(java.lang.String,char): lastWasGap  =>  !lastWasGap
+COI_49:200:java.lang.String_initials(java.lang.String,char): lastWasGap  =>  !lastWasGap
+COI_50:202:java.lang.String_initials(java.lang.String,char): lastWasGap  =>  !lastWasGap
+COI_51:211:boolean_isDelimiter(char,char): delimiters == null  =>  !(delimiters == null)
+COI_52:214:boolean_isDelimiter(char,char): i < isize  =>  !(i < isize)
+COI_53:215:boolean_isDelimiter(char,char): ch == delimiters[i]  =>  !(ch == delimiters[i])
+COI_54:224:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str == null  =>  !(str == null)
+COI_55:227:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): str.length() == 0  =>  !(str.length() == 0)
+COI_56:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): lower > str.length()  =>  !(lower > str.length())
+COI_57:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1  =>  !(upper == -1)
+COI_58:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper > str.length()  =>  !(upper > str.length())
+COI_59:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper == -1 || upper > str.length()  =>  !(upper == -1 || upper > str.length())
+COI_60:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper < lower  =>  !(upper < lower)
+COI_61:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index == -1  =>  !(index == -1)
+COI_62:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): upper != str.length()  =>  !(upper != str.length())
+COI_63:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String): index > upper  =>  !(index > upper)
+LOI_1:17:java.lang.String_wrap(java.lang.String,int):wrapLength => ~wrapLength
+LOI_2:28:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ~wrapLength
+LOI_3:33:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => ~inputLineLength
+LOI_4:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => ~inputLineLength
+LOI_5:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_6:34:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ~wrapLength
+LOI_7:35:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_8:36:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_9:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ~wrapLength
+LOI_10:39:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_11:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ~spaceToWrapAt
+LOI_12:40:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_13:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_14:41:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ~spaceToWrapAt
+LOI_15:43:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ~spaceToWrapAt
+LOI_16:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_17:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ~wrapLength
+LOI_18:46:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_19:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ~wrapLength
+LOI_20:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):wrapLength => ~wrapLength
+LOI_21:50:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_22:51:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ~spaceToWrapAt
+LOI_23:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_24:52:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ~spaceToWrapAt
+LOI_25:54:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):spaceToWrapAt => ~spaceToWrapAt
+LOI_26:56:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_27:57:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):inputLineLength => ~inputLineLength
+LOI_28:62:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset => ~offset
+LOI_29:73:java.lang.String_capitalize(java.lang.String,char):delimiters.length => -delimiters.length
+LOI_30:74:java.lang.String_capitalize(java.lang.String,char):delimLen => ~delimLen
+LOI_31:78:java.lang.String_capitalize(java.lang.String,char):strLen => ~strLen
+LOI_32:80:java.lang.String_capitalize(java.lang.String,char):i => ~i
+LOI_33:80:java.lang.String_capitalize(java.lang.String,char):strLen => ~strLen
+LOI_34:80:java.lang.String_capitalize(java.lang.String,char):i => ~i
+LOI_35:81:java.lang.String_capitalize(java.lang.String,char):i => ~i
+LOI_36:82:java.lang.String_capitalize(java.lang.String,char):ch => ~ch
+LOI_37:83:java.lang.String_capitalize(java.lang.String,char):ch => ~ch
+LOI_38:87:java.lang.String_capitalize(java.lang.String,char):ch => ~ch
+LOI_39:90:java.lang.String_capitalize(java.lang.String,char):ch => ~ch
+LOI_40:104:java.lang.String_capitalizeFully(java.lang.String,char):delimiters.length => -delimiters.length
+LOI_41:105:java.lang.String_capitalizeFully(java.lang.String,char):delimLen => ~delimLen
+LOI_42:119:java.lang.String_uncapitalize(java.lang.String,char):delimiters.length => -delimiters.length
+LOI_43:120:java.lang.String_uncapitalize(java.lang.String,char):delimLen => ~delimLen
+LOI_44:124:java.lang.String_uncapitalize(java.lang.String,char):strLen => ~strLen
+LOI_45:126:java.lang.String_uncapitalize(java.lang.String,char):i => ~i
+LOI_46:126:java.lang.String_uncapitalize(java.lang.String,char):strLen => ~strLen
+LOI_47:126:java.lang.String_uncapitalize(java.lang.String,char):i => ~i
+LOI_48:127:java.lang.String_uncapitalize(java.lang.String,char):i => ~i
+LOI_49:128:java.lang.String_uncapitalize(java.lang.String,char):ch => ~ch
+LOI_50:129:java.lang.String_uncapitalize(java.lang.String,char):ch => ~ch
+LOI_51:133:java.lang.String_uncapitalize(java.lang.String,char):ch => ~ch
+LOI_52:136:java.lang.String_uncapitalize(java.lang.String,char):ch => ~ch
+LOI_53:149:java.lang.String_swapCase(java.lang.String):strLen => ~strLen
+LOI_54:153:java.lang.String_swapCase(java.lang.String):i => ~i
+LOI_55:153:java.lang.String_swapCase(java.lang.String):strLen => ~strLen
+LOI_56:153:java.lang.String_swapCase(java.lang.String):i => ~i
+LOI_57:154:java.lang.String_swapCase(java.lang.String):i => ~i
+LOI_58:155:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_59:156:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_60:158:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_61:159:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_62:161:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_63:163:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_64:165:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_65:168:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_66:172:java.lang.String_swapCase(java.lang.String):tmp => ~tmp
+LOI_67:173:java.lang.String_swapCase(java.lang.String):ch => ~ch
+LOI_68:188:java.lang.String_initials(java.lang.String,char):delimiters.length => -delimiters.length
+LOI_69:192:java.lang.String_initials(java.lang.String,char):strLen => ~strLen
+LOI_70:195:java.lang.String_initials(java.lang.String,char):i => ~i
+LOI_71:195:java.lang.String_initials(java.lang.String,char):strLen => ~strLen
+LOI_72:195:java.lang.String_initials(java.lang.String,char):i => ~i
+LOI_73:196:java.lang.String_initials(java.lang.String,char):i => ~i
+LOI_74:197:java.lang.String_initials(java.lang.String,char):ch => ~ch
+LOI_75:201:java.lang.String_initials(java.lang.String,char):count => ~count
+LOI_76:201:java.lang.String_initials(java.lang.String,char):ch => ~ch
+LOI_77:206:java.lang.String_initials(java.lang.String,char):count => ~count
+LOI_78:212:boolean_isDelimiter(char,char):ch => ~ch
+LOI_79:214:boolean_isDelimiter(char,char):i => ~i
+LOI_80:214:boolean_isDelimiter(char,char):isize => ~isize
+LOI_81:214:boolean_isDelimiter(char,char):i => ~i
+LOI_82:215:boolean_isDelimiter(char,char):ch => ~ch
+LOI_83:215:boolean_isDelimiter(char,char):i => ~i
+LOI_84:230:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => ~lower
+LOI_85:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ~upper
+LOI_86:233:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ~upper
+LOI_87:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ~upper
+LOI_88:236:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => ~lower
+LOI_89:237:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => ~lower
+LOI_90:240:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):lower => ~lower
+LOI_91:241:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => ~index
+LOI_92:242:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ~upper
+LOI_93:243:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ~upper
+LOI_94:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => ~index
+LOI_95:247:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ~upper
+LOI_96:248:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):upper => ~upper
+LOI_97:251:java.lang.String_abbreviate(java.lang.String,int,int,java.lang.String):index => ~index
+ASRS_1:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset += wrapLength => offset /= wrapLength
+ASRS_2:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset += wrapLength => offset *= wrapLength
+ASRS_3:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset += wrapLength => offset -= wrapLength
+ASRS_4:48:java.lang.String_wrap(java.lang.String,int,java.lang.String,boolean):offset += wrapLength => offset %= wrapLength

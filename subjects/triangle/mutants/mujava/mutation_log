@@ -1,0 +1,370 @@
+AORB_1:26:int_classify(int,int,int):trian + 1 => trian * 1
+AORB_2:26:int_classify(int,int,int):trian + 1 => trian / 1
+AORB_3:26:int_classify(int,int,int):trian + 1 => trian % 1
+AORB_4:26:int_classify(int,int,int):trian + 1 => trian - 1
+AORB_5:29:int_classify(int,int,int):trian + 2 => trian * 2
+AORB_6:29:int_classify(int,int,int):trian + 2 => trian / 2
+AORB_7:29:int_classify(int,int,int):trian + 2 => trian % 2
+AORB_8:29:int_classify(int,int,int):trian + 2 => trian - 2
+AORB_9:32:int_classify(int,int,int):trian + 3 => trian * 3
+AORB_10:32:int_classify(int,int,int):trian + 3 => trian / 3
+AORB_11:32:int_classify(int,int,int):trian + 3 => trian % 3
+AORB_12:32:int_classify(int,int,int):trian + 3 => trian - 3
+AORB_13:35:int_classify(int,int,int):a + b => a * b
+AORB_14:35:int_classify(int,int,int):a + b => a / b
+AORB_15:35:int_classify(int,int,int):a + b => a % b
+AORB_16:35:int_classify(int,int,int):a + b => a - b
+AORB_17:35:int_classify(int,int,int):a + c => a * c
+AORB_18:35:int_classify(int,int,int):a + c => a / c
+AORB_19:35:int_classify(int,int,int):a + c => a % c
+AORB_20:35:int_classify(int,int,int):a + c => a - c
+AORB_21:35:int_classify(int,int,int):b + c => b * c
+AORB_22:35:int_classify(int,int,int):b + c => b / c
+AORB_23:35:int_classify(int,int,int):b + c => b % c
+AORB_24:35:int_classify(int,int,int):b + c => b - c
+AORB_25:44:int_classify(int,int,int):a + b => a * b
+AORB_26:44:int_classify(int,int,int):a + b => a / b
+AORB_27:44:int_classify(int,int,int):a + b => a % b
+AORB_28:44:int_classify(int,int,int):a + b => a - b
+AORB_29:47:int_classify(int,int,int):a + c => a * c
+AORB_30:47:int_classify(int,int,int):a + c => a / c
+AORB_31:47:int_classify(int,int,int):a + c => a % c
+AORB_32:47:int_classify(int,int,int):a + c => a - c
+AORB_33:50:int_classify(int,int,int):b + c => b * c
+AORB_34:50:int_classify(int,int,int):b + c => b / c
+AORB_35:50:int_classify(int,int,int):b + c => b % c
+AORB_36:50:int_classify(int,int,int):b + c => b - c
+AOIU_1:22:int_classify(int,int,int):INVALID => -INVALID
+AOIU_2:26:int_classify(int,int,int):trian => -trian
+AOIU_3:29:int_classify(int,int,int):trian => -trian
+AOIU_4:32:int_classify(int,int,int):trian => -trian
+AOIU_5:36:int_classify(int,int,int):INVALID => -INVALID
+AOIU_6:38:int_classify(int,int,int):SCALENE => -SCALENE
+AOIU_7:42:int_classify(int,int,int):EQUILATERAL => -EQUILATERAL
+AOIU_8:45:int_classify(int,int,int):ISOSCELES => -ISOSCELES
+AOIU_9:48:int_classify(int,int,int):ISOSCELES => -ISOSCELES
+AOIU_10:51:int_classify(int,int,int):ISOSCELES => -ISOSCELES
+AOIU_11:55:int_classify(int,int,int):INVALID => -INVALID
+AOIS_1:21:int_classify(int,int,int):a => ++a
+AOIS_2:21:int_classify(int,int,int):a => --a
+AOIS_3:21:int_classify(int,int,int):a => a++
+AOIS_4:21:int_classify(int,int,int):a => a--
+AOIS_5:21:int_classify(int,int,int):b => ++b
+AOIS_6:21:int_classify(int,int,int):b => --b
+AOIS_7:21:int_classify(int,int,int):b => b++
+AOIS_8:21:int_classify(int,int,int):b => b--
+AOIS_9:21:int_classify(int,int,int):c => ++c
+AOIS_10:21:int_classify(int,int,int):c => --c
+AOIS_11:21:int_classify(int,int,int):c => c++
+AOIS_12:21:int_classify(int,int,int):c => c--
+AOIS_13:22:int_classify(int,int,int):INVALID => INVALID++
+AOIS_14:22:int_classify(int,int,int):INVALID => INVALID--
+AOIS_15:25:int_classify(int,int,int):a => ++a
+AOIS_16:25:int_classify(int,int,int):a => --a
+AOIS_17:25:int_classify(int,int,int):a => a++
+AOIS_18:25:int_classify(int,int,int):a => a--
+AOIS_19:25:int_classify(int,int,int):b => ++b
+AOIS_20:25:int_classify(int,int,int):b => --b
+AOIS_21:25:int_classify(int,int,int):b => b++
+AOIS_22:25:int_classify(int,int,int):b => b--
+AOIS_23:26:int_classify(int,int,int):trian => ++trian
+AOIS_24:26:int_classify(int,int,int):trian => --trian
+AOIS_25:26:int_classify(int,int,int):trian => trian++
+AOIS_26:26:int_classify(int,int,int):trian => trian--
+AOIS_27:28:int_classify(int,int,int):a => ++a
+AOIS_28:28:int_classify(int,int,int):a => --a
+AOIS_29:28:int_classify(int,int,int):a => a++
+AOIS_30:28:int_classify(int,int,int):a => a--
+AOIS_31:28:int_classify(int,int,int):c => ++c
+AOIS_32:28:int_classify(int,int,int):c => --c
+AOIS_33:28:int_classify(int,int,int):c => c++
+AOIS_34:28:int_classify(int,int,int):c => c--
+AOIS_35:29:int_classify(int,int,int):trian => ++trian
+AOIS_36:29:int_classify(int,int,int):trian => --trian
+AOIS_37:29:int_classify(int,int,int):trian => trian++
+AOIS_38:29:int_classify(int,int,int):trian => trian--
+AOIS_39:31:int_classify(int,int,int):b => ++b
+AOIS_40:31:int_classify(int,int,int):b => --b
+AOIS_41:31:int_classify(int,int,int):b => b++
+AOIS_42:31:int_classify(int,int,int):b => b--
+AOIS_43:31:int_classify(int,int,int):c => ++c
+AOIS_44:31:int_classify(int,int,int):c => --c
+AOIS_45:31:int_classify(int,int,int):c => c++
+AOIS_46:31:int_classify(int,int,int):c => c--
+AOIS_47:32:int_classify(int,int,int):trian => ++trian
+AOIS_48:32:int_classify(int,int,int):trian => --trian
+AOIS_49:32:int_classify(int,int,int):trian => trian++
+AOIS_50:32:int_classify(int,int,int):trian => trian--
+AOIS_51:34:int_classify(int,int,int):trian => ++trian
+AOIS_52:34:int_classify(int,int,int):trian => --trian
+AOIS_53:34:int_classify(int,int,int):trian => trian++
+AOIS_54:34:int_classify(int,int,int):trian => trian--
+AOIS_55:35:int_classify(int,int,int):a => ++a
+AOIS_56:35:int_classify(int,int,int):a => --a
+AOIS_57:35:int_classify(int,int,int):a => a++
+AOIS_58:35:int_classify(int,int,int):a => a--
+AOIS_59:35:int_classify(int,int,int):b => ++b
+AOIS_60:35:int_classify(int,int,int):b => --b
+AOIS_61:35:int_classify(int,int,int):b => b++
+AOIS_62:35:int_classify(int,int,int):b => b--
+AOIS_63:35:int_classify(int,int,int):c => c++
+AOIS_64:35:int_classify(int,int,int):c => c--
+AOIS_65:35:int_classify(int,int,int):a => ++a
+AOIS_66:35:int_classify(int,int,int):a => --a
+AOIS_67:35:int_classify(int,int,int):a => a++
+AOIS_68:35:int_classify(int,int,int):a => a--
+AOIS_69:35:int_classify(int,int,int):c => ++c
+AOIS_70:35:int_classify(int,int,int):c => --c
+AOIS_71:35:int_classify(int,int,int):c => c++
+AOIS_72:35:int_classify(int,int,int):c => c--
+AOIS_73:35:int_classify(int,int,int):b => b++
+AOIS_74:35:int_classify(int,int,int):b => b--
+AOIS_75:35:int_classify(int,int,int):b => ++b
+AOIS_76:35:int_classify(int,int,int):b => --b
+AOIS_77:35:int_classify(int,int,int):b => b++
+AOIS_78:35:int_classify(int,int,int):b => b--
+AOIS_79:35:int_classify(int,int,int):c => ++c
+AOIS_80:35:int_classify(int,int,int):c => --c
+AOIS_81:35:int_classify(int,int,int):c => c++
+AOIS_82:35:int_classify(int,int,int):c => c--
+AOIS_83:35:int_classify(int,int,int):a => a++
+AOIS_84:35:int_classify(int,int,int):a => a--
+AOIS_85:36:int_classify(int,int,int):INVALID => INVALID++
+AOIS_86:36:int_classify(int,int,int):INVALID => INVALID--
+AOIS_87:38:int_classify(int,int,int):SCALENE => SCALENE++
+AOIS_88:38:int_classify(int,int,int):SCALENE => SCALENE--
+AOIS_89:41:int_classify(int,int,int):trian => ++trian
+AOIS_90:41:int_classify(int,int,int):trian => --trian
+AOIS_91:41:int_classify(int,int,int):trian => trian++
+AOIS_92:41:int_classify(int,int,int):trian => trian--
+AOIS_93:42:int_classify(int,int,int):EQUILATERAL => EQUILATERAL++
+AOIS_94:42:int_classify(int,int,int):EQUILATERAL => EQUILATERAL--
+AOIS_95:44:int_classify(int,int,int):trian => ++trian
+AOIS_96:44:int_classify(int,int,int):trian => --trian
+AOIS_97:44:int_classify(int,int,int):trian => trian++
+AOIS_98:44:int_classify(int,int,int):trian => trian--
+AOIS_99:44:int_classify(int,int,int):a => ++a
+AOIS_100:44:int_classify(int,int,int):a => --a
+AOIS_101:44:int_classify(int,int,int):a => a++
+AOIS_102:44:int_classify(int,int,int):a => a--
+AOIS_103:44:int_classify(int,int,int):b => ++b
+AOIS_104:44:int_classify(int,int,int):b => --b
+AOIS_105:44:int_classify(int,int,int):b => b++
+AOIS_106:44:int_classify(int,int,int):b => b--
+AOIS_107:44:int_classify(int,int,int):c => c++
+AOIS_108:44:int_classify(int,int,int):c => c--
+AOIS_109:45:int_classify(int,int,int):ISOSCELES => ISOSCELES++
+AOIS_110:45:int_classify(int,int,int):ISOSCELES => ISOSCELES--
+AOIS_111:47:int_classify(int,int,int):trian => ++trian
+AOIS_112:47:int_classify(int,int,int):trian => --trian
+AOIS_113:47:int_classify(int,int,int):trian => trian++
+AOIS_114:47:int_classify(int,int,int):trian => trian--
+AOIS_115:47:int_classify(int,int,int):a => ++a
+AOIS_116:47:int_classify(int,int,int):a => --a
+AOIS_117:47:int_classify(int,int,int):a => a++
+AOIS_118:47:int_classify(int,int,int):a => a--
+AOIS_119:47:int_classify(int,int,int):c => ++c
+AOIS_120:47:int_classify(int,int,int):c => --c
+AOIS_121:47:int_classify(int,int,int):c => c++
+AOIS_122:47:int_classify(int,int,int):c => c--
+AOIS_123:47:int_classify(int,int,int):b => b++
+AOIS_124:47:int_classify(int,int,int):b => b--
+AOIS_125:48:int_classify(int,int,int):ISOSCELES => ISOSCELES++
+AOIS_126:48:int_classify(int,int,int):ISOSCELES => ISOSCELES--
+AOIS_127:50:int_classify(int,int,int):trian => ++trian
+AOIS_128:50:int_classify(int,int,int):trian => --trian
+AOIS_129:50:int_classify(int,int,int):trian => trian++
+AOIS_130:50:int_classify(int,int,int):trian => trian--
+AOIS_131:50:int_classify(int,int,int):b => ++b
+AOIS_132:50:int_classify(int,int,int):b => --b
+AOIS_133:50:int_classify(int,int,int):b => b++
+AOIS_134:50:int_classify(int,int,int):b => b--
+AOIS_135:50:int_classify(int,int,int):c => ++c
+AOIS_136:50:int_classify(int,int,int):c => --c
+AOIS_137:50:int_classify(int,int,int):c => c++
+AOIS_138:50:int_classify(int,int,int):c => c--
+AOIS_139:50:int_classify(int,int,int):a => a++
+AOIS_140:50:int_classify(int,int,int):a => a--
+AOIS_141:51:int_classify(int,int,int):ISOSCELES => ISOSCELES++
+AOIS_142:51:int_classify(int,int,int):ISOSCELES => ISOSCELES--
+AOIS_143:55:int_classify(int,int,int):INVALID => INVALID++
+AOIS_144:55:int_classify(int,int,int):INVALID => INVALID--
+ROR_1:21:int_classify(int,int,int): a <= 0  =>   a > 0
+ROR_2:21:int_classify(int,int,int): a <= 0  =>   a >= 0
+ROR_3:21:int_classify(int,int,int): a <= 0  =>   a < 0
+ROR_4:21:int_classify(int,int,int): a <= 0  =>   a == 0
+ROR_5:21:int_classify(int,int,int): a <= 0  =>   a != 0
+ROR_6:21:int_classify(int,int,int): a <= 0  =>   true
+ROR_7:21:int_classify(int,int,int): a <= 0  =>   false
+ROR_8:21:int_classify(int,int,int): b <= 0  =>   b > 0
+ROR_9:21:int_classify(int,int,int): b <= 0  =>   b >= 0
+ROR_10:21:int_classify(int,int,int): b <= 0  =>   b < 0
+ROR_11:21:int_classify(int,int,int): b <= 0  =>   b == 0
+ROR_12:21:int_classify(int,int,int): b <= 0  =>   b != 0
+ROR_13:21:int_classify(int,int,int): b <= 0  =>   true
+ROR_14:21:int_classify(int,int,int): b <= 0  =>   false
+ROR_15:21:int_classify(int,int,int): c <= 0  =>   c > 0
+ROR_16:21:int_classify(int,int,int): c <= 0  =>   c >= 0
+ROR_17:21:int_classify(int,int,int): c <= 0  =>   c < 0
+ROR_18:21:int_classify(int,int,int): c <= 0  =>   c == 0
+ROR_19:21:int_classify(int,int,int): c <= 0  =>   c != 0
+ROR_20:21:int_classify(int,int,int): c <= 0  =>   true
+ROR_21:21:int_classify(int,int,int): c <= 0  =>   false
+ROR_22:25:int_classify(int,int,int): a == b  =>   a > b
+ROR_23:25:int_classify(int,int,int): a == b  =>   a >= b
+ROR_24:25:int_classify(int,int,int): a == b  =>   a < b
+ROR_25:25:int_classify(int,int,int): a == b  =>   a <= b
+ROR_26:25:int_classify(int,int,int): a == b  =>   a != b
+ROR_27:25:int_classify(int,int,int): a == b  =>   true
+ROR_28:25:int_classify(int,int,int): a == b  =>   false
+ROR_29:28:int_classify(int,int,int): a == c  =>   a > c
+ROR_30:28:int_classify(int,int,int): a == c  =>   a >= c
+ROR_31:28:int_classify(int,int,int): a == c  =>   a < c
+ROR_32:28:int_classify(int,int,int): a == c  =>   a <= c
+ROR_33:28:int_classify(int,int,int): a == c  =>   a != c
+ROR_34:28:int_classify(int,int,int): a == c  =>   true
+ROR_35:28:int_classify(int,int,int): a == c  =>   false
+ROR_36:31:int_classify(int,int,int): b == c  =>   b > c
+ROR_37:31:int_classify(int,int,int): b == c  =>   b >= c
+ROR_38:31:int_classify(int,int,int): b == c  =>   b < c
+ROR_39:31:int_classify(int,int,int): b == c  =>   b <= c
+ROR_40:31:int_classify(int,int,int): b == c  =>   b != c
+ROR_41:31:int_classify(int,int,int): b == c  =>   true
+ROR_42:31:int_classify(int,int,int): b == c  =>   false
+ROR_43:34:int_classify(int,int,int): trian == 0  =>   trian > 0
+ROR_44:34:int_classify(int,int,int): trian == 0  =>   trian >= 0
+ROR_45:34:int_classify(int,int,int): trian == 0  =>   trian < 0
+ROR_46:34:int_classify(int,int,int): trian == 0  =>   trian <= 0
+ROR_47:34:int_classify(int,int,int): trian == 0  =>   trian != 0
+ROR_48:34:int_classify(int,int,int): trian == 0  =>   true
+ROR_49:34:int_classify(int,int,int): trian == 0  =>   false
+ROR_50:41:int_classify(int,int,int): trian > 3  =>   trian >= 3
+ROR_51:41:int_classify(int,int,int): trian > 3  =>   trian < 3
+ROR_52:41:int_classify(int,int,int): trian > 3  =>   trian <= 3
+ROR_53:41:int_classify(int,int,int): trian > 3  =>   trian == 3
+ROR_54:41:int_classify(int,int,int): trian > 3  =>   trian != 3
+ROR_55:41:int_classify(int,int,int): trian > 3  =>   true
+ROR_56:41:int_classify(int,int,int): trian > 3  =>   false
+ROR_57:44:int_classify(int,int,int): trian == 1  =>   trian > 1
+ROR_58:44:int_classify(int,int,int): trian == 1  =>   trian >= 1
+ROR_59:44:int_classify(int,int,int): trian == 1  =>   trian < 1
+ROR_60:44:int_classify(int,int,int): trian == 1  =>   trian <= 1
+ROR_61:44:int_classify(int,int,int): trian == 1  =>   trian != 1
+ROR_62:44:int_classify(int,int,int): trian == 1  =>   true
+ROR_63:44:int_classify(int,int,int): trian == 1  =>   false
+ROR_64:44:int_classify(int,int,int): a + b > c  =>   a + b >= c
+ROR_65:44:int_classify(int,int,int): a + b > c  =>   a + b < c
+ROR_66:44:int_classify(int,int,int): a + b > c  =>   a + b <= c
+ROR_67:44:int_classify(int,int,int): a + b > c  =>   a + b == c
+ROR_68:44:int_classify(int,int,int): a + b > c  =>   a + b != c
+ROR_69:44:int_classify(int,int,int): a + b > c  =>   true
+ROR_70:44:int_classify(int,int,int): a + b > c  =>   false
+ROR_71:47:int_classify(int,int,int): trian == 2  =>   trian > 2
+ROR_72:47:int_classify(int,int,int): trian == 2  =>   trian >= 2
+ROR_73:47:int_classify(int,int,int): trian == 2  =>   trian < 2
+ROR_74:47:int_classify(int,int,int): trian == 2  =>   trian <= 2
+ROR_75:47:int_classify(int,int,int): trian == 2  =>   trian != 2
+ROR_76:47:int_classify(int,int,int): trian == 2  =>   true
+ROR_77:47:int_classify(int,int,int): trian == 2  =>   false
+ROR_78:47:int_classify(int,int,int): a + c > b  =>   a + c >= b
+ROR_79:47:int_classify(int,int,int): a + c > b  =>   a + c < b
+ROR_80:47:int_classify(int,int,int): a + c > b  =>   a + c <= b
+ROR_81:47:int_classify(int,int,int): a + c > b  =>   a + c == b
+ROR_82:47:int_classify(int,int,int): a + c > b  =>   a + c != b
+ROR_83:47:int_classify(int,int,int): a + c > b  =>   true
+ROR_84:47:int_classify(int,int,int): a + c > b  =>   false
+ROR_85:50:int_classify(int,int,int): trian == 3  =>   trian > 3
+ROR_86:50:int_classify(int,int,int): trian == 3  =>   trian >= 3
+ROR_87:50:int_classify(int,int,int): trian == 3  =>   trian < 3
+ROR_88:50:int_classify(int,int,int): trian == 3  =>   trian <= 3
+ROR_89:50:int_classify(int,int,int): trian == 3  =>   trian != 3
+ROR_90:50:int_classify(int,int,int): trian == 3  =>   true
+ROR_91:50:int_classify(int,int,int): trian == 3  =>   false
+ROR_92:50:int_classify(int,int,int): b + c > a  =>   b + c >= a
+ROR_93:50:int_classify(int,int,int): b + c > a  =>   b + c < a
+ROR_94:50:int_classify(int,int,int): b + c > a  =>   b + c <= a
+ROR_95:50:int_classify(int,int,int): b + c > a  =>   b + c == a
+ROR_96:50:int_classify(int,int,int): b + c > a  =>   b + c != a
+ROR_97:50:int_classify(int,int,int): b + c > a  =>   true
+ROR_98:50:int_classify(int,int,int): b + c > a  =>   false
+COR_1:21:int_classify(int,int,int): a <= 0 || b <= 0  =>   a <= 0 && b <= 0
+COR_2:21:int_classify(int,int,int): a <= 0 || b <= 0  =>   a <= 0 ^ b <= 0
+COR_3:21:int_classify(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) && c <= 0
+COR_4:21:int_classify(int,int,int): a <= 0 || b <= 0 || c <= 0  =>   (a <= 0 || b <= 0) ^ c <= 0
+COR_5:35:int_classify(int,int,int): a + b < c || a + c < b  =>   a + b < c && a + c < b
+COR_6:35:int_classify(int,int,int): a + b < c || a + c < b  =>   a + b < c ^ a + c < b
+COR_7:35:int_classify(int,int,int): a + b < c || a + c < b || b + c < a  =>   (a + b < c || a + c < b) && b + c < a
+COR_8:35:int_classify(int,int,int): a + b < c || a + c < b || b + c < a  =>   (a + b < c || a + c < b) ^ b + c < a
+COR_9:44:int_classify(int,int,int): trian == 1 && a + b > c  =>   trian == 1 || a + b > c
+COR_10:44:int_classify(int,int,int): trian == 1 && a + b > c  =>   trian == 1 ^ a + b > c
+COR_11:47:int_classify(int,int,int): trian == 2 && a + c > b  =>   trian == 2 || a + c > b
+COR_12:47:int_classify(int,int,int): trian == 2 && a + c > b  =>   trian == 2 ^ a + c > b
+COR_13:50:int_classify(int,int,int): trian == 3 && b + c > a  =>   trian == 3 || b + c > a
+COR_14:50:int_classify(int,int,int): trian == 3 && b + c > a  =>   trian == 3 ^ b + c > a
+COI_1:21:int_classify(int,int,int): a <= 0  =>  !(a <= 0)
+COI_2:21:int_classify(int,int,int): b <= 0  =>  !(b <= 0)
+COI_3:21:int_classify(int,int,int): a <= 0 || b <= 0  =>  !(a <= 0 || b <= 0)
+COI_4:21:int_classify(int,int,int): c <= 0  =>  !(c <= 0)
+COI_5:21:int_classify(int,int,int): a <= 0 || b <= 0 || c <= 0  =>  !(a <= 0 || b <= 0 || c <= 0)
+COI_6:25:int_classify(int,int,int): a == b  =>  !(a == b)
+COI_7:28:int_classify(int,int,int): a == c  =>  !(a == c)
+COI_8:31:int_classify(int,int,int): b == c  =>  !(b == c)
+COI_9:34:int_classify(int,int,int): trian == 0  =>  !(trian == 0)
+COI_10:35:int_classify(int,int,int): a + b < c  =>  !(a + b < c)
+COI_11:35:int_classify(int,int,int): a + c < b  =>  !(a + c < b)
+COI_12:35:int_classify(int,int,int): a + b < c || a + c < b  =>  !(a + b < c || a + c < b)
+COI_13:35:int_classify(int,int,int): b + c < a  =>  !(b + c < a)
+COI_14:35:int_classify(int,int,int): a + b < c || a + c < b || b + c < a  =>  !(a + b < c || a + c < b || b + c < a)
+COI_15:41:int_classify(int,int,int): trian > 3  =>  !(trian > 3)
+COI_16:44:int_classify(int,int,int): trian == 1  =>  !(trian == 1)
+COI_17:44:int_classify(int,int,int): a + b > c  =>  !(a + b > c)
+COI_18:44:int_classify(int,int,int): trian == 1 && a + b > c  =>  !(trian == 1 && a + b > c)
+COI_19:47:int_classify(int,int,int): trian == 2  =>  !(trian == 2)
+COI_20:47:int_classify(int,int,int): a + c > b  =>  !(a + c > b)
+COI_21:47:int_classify(int,int,int): trian == 2 && a + c > b  =>  !(trian == 2 && a + c > b)
+COI_22:50:int_classify(int,int,int): trian == 3  =>  !(trian == 3)
+COI_23:50:int_classify(int,int,int): b + c > a  =>  !(b + c > a)
+COI_24:50:int_classify(int,int,int): trian == 3 && b + c > a  =>  !(trian == 3 && b + c > a)
+LOI_1:21:int_classify(int,int,int):a => ~a
+LOI_2:21:int_classify(int,int,int):b => ~b
+LOI_3:21:int_classify(int,int,int):c => ~c
+LOI_4:22:int_classify(int,int,int):INVALID => ~INVALID
+LOI_5:25:int_classify(int,int,int):a => ~a
+LOI_6:25:int_classify(int,int,int):b => ~b
+LOI_7:26:int_classify(int,int,int):trian => ~trian
+LOI_8:28:int_classify(int,int,int):a => ~a
+LOI_9:28:int_classify(int,int,int):c => ~c
+LOI_10:29:int_classify(int,int,int):trian => ~trian
+LOI_11:31:int_classify(int,int,int):b => ~b
+LOI_12:31:int_classify(int,int,int):c => ~c
+LOI_13:32:int_classify(int,int,int):trian => ~trian
+LOI_14:34:int_classify(int,int,int):trian => ~trian
+LOI_15:35:int_classify(int,int,int):a => ~a
+LOI_16:35:int_classify(int,int,int):b => ~b
+LOI_17:35:int_classify(int,int,int):c => ~c
+LOI_18:35:int_classify(int,int,int):a => ~a
+LOI_19:35:int_classify(int,int,int):c => ~c
+LOI_20:35:int_classify(int,int,int):b => ~b
+LOI_21:35:int_classify(int,int,int):b => ~b
+LOI_22:35:int_classify(int,int,int):c => ~c
+LOI_23:35:int_classify(int,int,int):a => ~a
+LOI_24:36:int_classify(int,int,int):INVALID => ~INVALID
+LOI_25:38:int_classify(int,int,int):SCALENE => ~SCALENE
+LOI_26:41:int_classify(int,int,int):trian => ~trian
+LOI_27:42:int_classify(int,int,int):EQUILATERAL => ~EQUILATERAL
+LOI_28:44:int_classify(int,int,int):trian => ~trian
+LOI_29:44:int_classify(int,int,int):a => ~a
+LOI_30:44:int_classify(int,int,int):b => ~b
+LOI_31:44:int_classify(int,int,int):c => ~c
+LOI_32:45:int_classify(int,int,int):ISOSCELES => ~ISOSCELES
+LOI_33:47:int_classify(int,int,int):trian => ~trian
+LOI_34:47:int_classify(int,int,int):a => ~a
+LOI_35:47:int_classify(int,int,int):c => ~c
+LOI_36:47:int_classify(int,int,int):b => ~b
+LOI_37:48:int_classify(int,int,int):ISOSCELES => ~ISOSCELES
+LOI_38:50:int_classify(int,int,int):trian => ~trian
+LOI_39:50:int_classify(int,int,int):b => ~b
+LOI_40:50:int_classify(int,int,int):c => ~c
+LOI_41:50:int_classify(int,int,int):a => ~a
+LOI_42:51:int_classify(int,int,int):ISOSCELES => ~ISOSCELES
+LOI_43:55:int_classify(int,int,int):INVALID => ~INVALID

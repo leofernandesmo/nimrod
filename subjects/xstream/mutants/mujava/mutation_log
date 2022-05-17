@@ -1,0 +1,332 @@
+AORB_1:71:java.lang.String_encodeName(java.lang.String):length + 8 => length * 8
+AORB_2:71:java.lang.String_encodeName(java.lang.String):length + 8 => length / 8
+AORB_3:71:java.lang.String_encodeName(java.lang.String):length + 8 => length % 8
+AORB_4:71:java.lang.String_encodeName(java.lang.String):length + 8 => length - 8
+AORB_5:111:java.lang.String_decodeName(java.lang.String):length + 8 => length * 8
+AORB_6:111:java.lang.String_decodeName(java.lang.String):length + 8 => length / 8
+AORB_7:111:java.lang.String_decodeName(java.lang.String):length + 8 => length % 8
+AORB_8:111:java.lang.String_decodeName(java.lang.String):length + 8 => length - 8
+AORB_9:118:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() * 1
+AORB_10:118:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() / 1
+AORB_11:118:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() % 1
+AORB_12:118:java.lang.String_decodeName(java.lang.String):dollarReplacement.length() - 1 => dollarReplacement.length() + 1
+AORB_13:122:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() * 1
+AORB_14:122:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() / 1
+AORB_15:122:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() % 1
+AORB_16:122:java.lang.String_decodeName(java.lang.String):escapeCharReplacement.length() - 1 => escapeCharReplacement.length() + 1
+AORS_1:62:java.lang.String_encodeName(java.lang.String):i++ => i--
+AORS_2:75:java.lang.String_encodeName(java.lang.String):i++ => i--
+AORS_3:102:java.lang.String_decodeName(java.lang.String):i++ => i--
+AORS_4:115:java.lang.String_decodeName(java.lang.String):i++ => i--
+AOIU_1:63:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_2:71:java.lang.String_encodeName(java.lang.String):length => -length
+AOIU_3:73:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_4:76:java.lang.String_encodeName(java.lang.String):i => -i
+AOIU_5:83:java.lang.String_encodeName(java.lang.String):c => -c
+AOIU_6:103:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_7:111:java.lang.String_decodeName(java.lang.String):length => -length
+AOIU_8:113:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_9:116:java.lang.String_decodeName(java.lang.String):i => -i
+AOIU_10:125:java.lang.String_decodeName(java.lang.String):c => -c
+AOIS_1:62:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_2:62:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_3:62:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_4:62:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_5:62:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_6:62:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_7:62:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_8:62:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_9:63:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_10:63:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_11:64:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_12:64:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_13:64:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_14:64:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_15:64:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_16:64:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_17:64:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_18:64:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_19:68:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_20:68:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_21:68:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_22:68:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_23:68:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_24:68:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_25:68:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_26:68:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_27:71:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_28:71:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_29:71:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_30:71:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_31:72:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_32:72:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_33:72:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_34:72:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_35:73:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_36:73:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_37:75:java.lang.String_encodeName(java.lang.String):i => ++i
+AOIS_38:75:java.lang.String_encodeName(java.lang.String):i => --i
+AOIS_39:75:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_40:75:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_41:75:java.lang.String_encodeName(java.lang.String):length => ++length
+AOIS_42:75:java.lang.String_encodeName(java.lang.String):length => --length
+AOIS_43:75:java.lang.String_encodeName(java.lang.String):length => length++
+AOIS_44:75:java.lang.String_encodeName(java.lang.String):length => length--
+AOIS_45:76:java.lang.String_encodeName(java.lang.String):i => i++
+AOIS_46:76:java.lang.String_encodeName(java.lang.String):i => i--
+AOIS_47:77:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_48:77:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_49:77:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_50:77:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_51:80:java.lang.String_encodeName(java.lang.String):c => ++c
+AOIS_52:80:java.lang.String_encodeName(java.lang.String):c => --c
+AOIS_53:80:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_54:80:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_55:83:java.lang.String_encodeName(java.lang.String):c => c++
+AOIS_56:83:java.lang.String_encodeName(java.lang.String):c => c--
+AOIS_57:102:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_58:102:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_59:102:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_60:102:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_61:102:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_62:102:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_63:102:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_64:102:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_65:103:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_66:103:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_67:104:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_68:104:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_69:104:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_70:104:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_71:104:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ++dollarReplacementFirstChar
+AOIS_72:104:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => --dollarReplacementFirstChar
+AOIS_73:104:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar++
+AOIS_74:104:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar--
+AOIS_75:104:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_76:104:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_77:104:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_78:104:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_79:104:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ++escapeReplacementFirstChar
+AOIS_80:104:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => --escapeReplacementFirstChar
+AOIS_81:104:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar++
+AOIS_82:104:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar--
+AOIS_83:108:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_84:108:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_85:108:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_86:108:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_87:108:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_88:108:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_89:108:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_90:108:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_91:111:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_92:111:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_93:111:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_94:111:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_95:112:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_96:112:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_97:112:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_98:112:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_99:113:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_100:113:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_101:115:java.lang.String_decodeName(java.lang.String):i => ++i
+AOIS_102:115:java.lang.String_decodeName(java.lang.String):i => --i
+AOIS_103:115:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_104:115:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_105:115:java.lang.String_decodeName(java.lang.String):length => ++length
+AOIS_106:115:java.lang.String_decodeName(java.lang.String):length => --length
+AOIS_107:115:java.lang.String_decodeName(java.lang.String):length => length++
+AOIS_108:115:java.lang.String_decodeName(java.lang.String):length => length--
+AOIS_109:116:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_110:116:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_111:117:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_112:117:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_113:117:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_114:117:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_115:117:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ++dollarReplacementFirstChar
+AOIS_116:117:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => --dollarReplacementFirstChar
+AOIS_117:117:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar++
+AOIS_118:117:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => dollarReplacementFirstChar--
+AOIS_119:117:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_120:117:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_121:121:java.lang.String_decodeName(java.lang.String):c => ++c
+AOIS_122:121:java.lang.String_decodeName(java.lang.String):c => --c
+AOIS_123:121:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_124:121:java.lang.String_decodeName(java.lang.String):c => c--
+AOIS_125:121:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ++escapeReplacementFirstChar
+AOIS_126:121:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => --escapeReplacementFirstChar
+AOIS_127:121:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar++
+AOIS_128:121:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => escapeReplacementFirstChar--
+AOIS_129:121:java.lang.String_decodeName(java.lang.String):i => i++
+AOIS_130:121:java.lang.String_decodeName(java.lang.String):i => i--
+AOIS_131:125:java.lang.String_decodeName(java.lang.String):c => c++
+AOIS_132:125:java.lang.String_decodeName(java.lang.String):c => c--
+ROR_1:58:java.lang.String_encodeName(java.lang.String): ref == null  =>   ref != null
+ROR_2:59:java.lang.String_encodeName(java.lang.String): s == null  =>   s != null
+ROR_3:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c > '$'
+ROR_4:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c >= '$'
+ROR_5:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c < '$'
+ROR_6:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c <= '$'
+ROR_7:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c != '$'
+ROR_8:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>   true
+ROR_9:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>   false
+ROR_10:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c > '_'
+ROR_11:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c >= '_'
+ROR_12:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c < '_'
+ROR_13:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c <= '_'
+ROR_14:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c != '_'
+ROR_15:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>   true
+ROR_16:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>   false
+ROR_17:68:java.lang.String_encodeName(java.lang.String): i == length  =>   i > length
+ROR_18:68:java.lang.String_encodeName(java.lang.String): i == length  =>   i >= length
+ROR_19:68:java.lang.String_encodeName(java.lang.String): i == length  =>   i < length
+ROR_20:68:java.lang.String_encodeName(java.lang.String): i == length  =>   i <= length
+ROR_21:68:java.lang.String_encodeName(java.lang.String): i == length  =>   i != length
+ROR_22:68:java.lang.String_encodeName(java.lang.String): i == length  =>   true
+ROR_23:68:java.lang.String_encodeName(java.lang.String): i == length  =>   false
+ROR_24:72:java.lang.String_encodeName(java.lang.String): i > 0  =>   i >= 0
+ROR_25:72:java.lang.String_encodeName(java.lang.String): i > 0  =>   i < 0
+ROR_26:72:java.lang.String_encodeName(java.lang.String): i > 0  =>   i <= 0
+ROR_27:72:java.lang.String_encodeName(java.lang.String): i > 0  =>   i == 0
+ROR_28:72:java.lang.String_encodeName(java.lang.String): i > 0  =>   i != 0
+ROR_29:72:java.lang.String_encodeName(java.lang.String): i > 0  =>   true
+ROR_30:72:java.lang.String_encodeName(java.lang.String): i > 0  =>   false
+ROR_31:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c > '$'
+ROR_32:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c >= '$'
+ROR_33:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c < '$'
+ROR_34:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c <= '$'
+ROR_35:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>   c != '$'
+ROR_36:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>   true
+ROR_37:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>   false
+ROR_38:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c > '_'
+ROR_39:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c >= '_'
+ROR_40:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c < '_'
+ROR_41:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c <= '_'
+ROR_42:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>   c != '_'
+ROR_43:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>   true
+ROR_44:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>   false
+ROR_45:96:java.lang.String_decodeName(java.lang.String): ref == null  =>   ref != null
+ROR_46:97:java.lang.String_decodeName(java.lang.String): s == null  =>   s != null
+ROR_47:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c > dollarReplacementFirstChar
+ROR_48:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c >= dollarReplacementFirstChar
+ROR_49:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c < dollarReplacementFirstChar
+ROR_50:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c <= dollarReplacementFirstChar
+ROR_51:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c != dollarReplacementFirstChar
+ROR_52:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   true
+ROR_53:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   false
+ROR_54:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c > escapeReplacementFirstChar
+ROR_55:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c >= escapeReplacementFirstChar
+ROR_56:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c < escapeReplacementFirstChar
+ROR_57:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c <= escapeReplacementFirstChar
+ROR_58:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c != escapeReplacementFirstChar
+ROR_59:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   true
+ROR_60:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   false
+ROR_61:108:java.lang.String_decodeName(java.lang.String): i == length  =>   i > length
+ROR_62:108:java.lang.String_decodeName(java.lang.String): i == length  =>   i >= length
+ROR_63:108:java.lang.String_decodeName(java.lang.String): i == length  =>   i < length
+ROR_64:108:java.lang.String_decodeName(java.lang.String): i == length  =>   i <= length
+ROR_65:108:java.lang.String_decodeName(java.lang.String): i == length  =>   i != length
+ROR_66:108:java.lang.String_decodeName(java.lang.String): i == length  =>   true
+ROR_67:108:java.lang.String_decodeName(java.lang.String): i == length  =>   false
+ROR_68:112:java.lang.String_decodeName(java.lang.String): i > 0  =>   i >= 0
+ROR_69:112:java.lang.String_decodeName(java.lang.String): i > 0  =>   i < 0
+ROR_70:112:java.lang.String_decodeName(java.lang.String): i > 0  =>   i <= 0
+ROR_71:112:java.lang.String_decodeName(java.lang.String): i > 0  =>   i == 0
+ROR_72:112:java.lang.String_decodeName(java.lang.String): i > 0  =>   i != 0
+ROR_73:112:java.lang.String_decodeName(java.lang.String): i > 0  =>   true
+ROR_74:112:java.lang.String_decodeName(java.lang.String): i > 0  =>   false
+ROR_75:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c > dollarReplacementFirstChar
+ROR_76:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c >= dollarReplacementFirstChar
+ROR_77:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c < dollarReplacementFirstChar
+ROR_78:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c <= dollarReplacementFirstChar
+ROR_79:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   c != dollarReplacementFirstChar
+ROR_80:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   true
+ROR_81:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>   false
+ROR_82:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c > escapeReplacementFirstChar
+ROR_83:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c >= escapeReplacementFirstChar
+ROR_84:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c < escapeReplacementFirstChar
+ROR_85:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c <= escapeReplacementFirstChar
+ROR_86:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   c != escapeReplacementFirstChar
+ROR_87:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   true
+ROR_88:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>   false
+COR_1:64:java.lang.String_encodeName(java.lang.String): c == '$' || c == '_'  =>   c == '$' && c == '_'
+COR_2:64:java.lang.String_encodeName(java.lang.String): c == '$' || c == '_'  =>   c == '$' ^ c == '_'
+COR_3:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar || c == escapeReplacementFirstChar  =>   c == dollarReplacementFirstChar && c == escapeReplacementFirstChar
+COR_4:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar || c == escapeReplacementFirstChar  =>   c == dollarReplacementFirstChar ^ c == escapeReplacementFirstChar
+COR_5:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )  =>   c == dollarReplacementFirstChar || name.startsWith( dollarReplacement, i )
+COR_6:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )  =>   c == dollarReplacementFirstChar ^ name.startsWith( dollarReplacement, i )
+COR_7:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )  =>   c == escapeReplacementFirstChar || name.startsWith( escapeCharReplacement, i )
+COR_8:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )  =>   c == escapeReplacementFirstChar ^ name.startsWith( escapeCharReplacement, i )
+COI_1:58:java.lang.String_encodeName(java.lang.String): ref == null  =>  !(ref == null)
+COI_2:59:java.lang.String_encodeName(java.lang.String): s == null  =>  !(s == null)
+COI_3:62:java.lang.String_encodeName(java.lang.String): i < length  =>  !(i < length)
+COI_4:64:java.lang.String_encodeName(java.lang.String): c == '$'  =>  !(c == '$')
+COI_5:64:java.lang.String_encodeName(java.lang.String): c == '_'  =>  !(c == '_')
+COI_6:64:java.lang.String_encodeName(java.lang.String): c == '$' || c == '_'  =>  !(c == '$' || c == '_')
+COI_7:68:java.lang.String_encodeName(java.lang.String): i == length  =>  !(i == length)
+COI_8:72:java.lang.String_encodeName(java.lang.String): i > 0  =>  !(i > 0)
+COI_9:75:java.lang.String_encodeName(java.lang.String): i < length  =>  !(i < length)
+COI_10:77:java.lang.String_encodeName(java.lang.String): c == '$'  =>  !(c == '$')
+COI_11:80:java.lang.String_encodeName(java.lang.String): c == '_'  =>  !(c == '_')
+COI_12:96:java.lang.String_decodeName(java.lang.String): ref == null  =>  !(ref == null)
+COI_13:97:java.lang.String_decodeName(java.lang.String): s == null  =>  !(s == null)
+COI_14:102:java.lang.String_decodeName(java.lang.String): i < length  =>  !(i < length)
+COI_15:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>  !(c == dollarReplacementFirstChar)
+COI_16:104:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>  !(c == escapeReplacementFirstChar)
+COI_17:104:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar || c == escapeReplacementFirstChar  =>  !(c == dollarReplacementFirstChar || c == escapeReplacementFirstChar)
+COI_18:108:java.lang.String_decodeName(java.lang.String): i == length  =>  !(i == length)
+COI_19:112:java.lang.String_decodeName(java.lang.String): i > 0  =>  !(i > 0)
+COI_20:115:java.lang.String_decodeName(java.lang.String): i < length  =>  !(i < length)
+COI_21:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar  =>  !(c == dollarReplacementFirstChar)
+COI_22:117:java.lang.String_decodeName(java.lang.String): c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i )  =>  !(c == dollarReplacementFirstChar && name.startsWith( dollarReplacement, i ))
+COI_23:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar  =>  !(c == escapeReplacementFirstChar)
+COI_24:121:java.lang.String_decodeName(java.lang.String): c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i )  =>  !(c == escapeReplacementFirstChar && name.startsWith( escapeCharReplacement, i ))
+LOI_1:62:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_2:62:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_3:62:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_4:63:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_5:64:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_6:64:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_7:68:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_8:68:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_9:71:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_10:72:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_11:73:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_12:75:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_13:75:java.lang.String_encodeName(java.lang.String):length => ~length
+LOI_14:75:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_15:76:java.lang.String_encodeName(java.lang.String):i => ~i
+LOI_16:77:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_17:80:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_18:83:java.lang.String_encodeName(java.lang.String):c => ~c
+LOI_19:102:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_20:102:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_21:102:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_22:103:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_23:104:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_24:104:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ~dollarReplacementFirstChar
+LOI_25:104:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_26:104:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ~escapeReplacementFirstChar
+LOI_27:108:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_28:108:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_29:111:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_30:112:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_31:113:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_32:115:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_33:115:java.lang.String_decodeName(java.lang.String):length => ~length
+LOI_34:115:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_35:116:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_36:117:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_37:117:java.lang.String_decodeName(java.lang.String):dollarReplacementFirstChar => ~dollarReplacementFirstChar
+LOI_38:117:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_39:121:java.lang.String_decodeName(java.lang.String):c => ~c
+LOI_40:121:java.lang.String_decodeName(java.lang.String):escapeReplacementFirstChar => ~escapeReplacementFirstChar
+LOI_41:121:java.lang.String_decodeName(java.lang.String):i => ~i
+LOI_42:125:java.lang.String_decodeName(java.lang.String):c => ~c
+ASRS_1:118:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i /= dollarReplacement.length() - 1
+ASRS_2:118:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i *= dollarReplacement.length() - 1
+ASRS_3:118:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i -= dollarReplacement.length() - 1
+ASRS_4:118:java.lang.String_decodeName(java.lang.String):i += dollarReplacement.length() - 1 => i %= dollarReplacement.length() - 1
+ASRS_5:122:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i /= escapeCharReplacement.length() - 1
+ASRS_6:122:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i *= escapeCharReplacement.length() - 1
+ASRS_7:122:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i -= escapeCharReplacement.length() - 1
+ASRS_8:122:java.lang.String_decodeName(java.lang.String):i += escapeCharReplacement.length() - 1 => i %= escapeCharReplacement.length() - 1
