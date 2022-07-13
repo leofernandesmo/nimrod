@@ -28,7 +28,7 @@ This is a step-by-step to replicate this study (in a Linux/Ubuntu environment).
   Successfully installed beautifulsoup4-4.11.1 bs4-0.0.1 soupsieve-2.3.2.post1
   Removing intermediate container 9548a2f1e9b7
    ---> <IMAGE_ID>
-  Successfully built <IMAGE_ID>
+  Successfully built <IMAGE_ID>    #You can also get the IMAGE_ID through the command docker images
 
   $ docker run -ti <IMAGE_ID>
   ```
