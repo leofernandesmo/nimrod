@@ -13,8 +13,8 @@
   * xstream
 
 **Results**
-  * [Link to Google Docs]([https://docs.google.com/spreadsheets/d/1bXLFWKJ4ksEt8nE6b97nfsRn2y3RcNzgSQ-a-thObik/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1IZLhYTNJHt3C24UBGTq5kyja1EK9awq4BL3P2QiLFxU/edit?usp=sharing])
-
+  * [Link to Google Docs](https://docs.google.com/spreadsheets/d/1bXLFWKJ4ksEt8nE6b97nfsRn2y3RcNzgSQ-a-thObik/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1IZLhYTNJHt3C24UBGTq5kyja1EK9awq4BL3P2QiLFxU/edit?usp=sharing))
+    
 #### **Replicate**
 
 This is a step-by-step to replicate this study (in a Linux/Ubuntu environment).
