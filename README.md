@@ -1,4 +1,4 @@
-# Put Your Hands In The Air! Reducing Manual Effort in Mutation Testing
+# Reducing Manual Efforts in Equivalence Analysis in Mutation Testing
 ### Published at: [...] 
 ### Authors: [...]
 
